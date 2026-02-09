@@ -1,0 +1,157 @@
+/* Hero styles */
+section {
+  scroll-behavior: smooth;
+}
+
+.btn {
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(13, 110, 253, 0.3);
+}
+
+.btn-outline-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(13, 110, 253, 0.2);
+}
+
+h2 {
+  font-weight: 700;
+  color: #212529;
+}
+.hero {
+  height: 420px;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-overlay {
+  height: 100%;
+  background: rgba(13, 110, 253, 0.85);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 48px;
+  padding: 64px 0;
+}
+
+.text h2 {
+  color: #0b5ed7;
+}
+
+.text span {
+  display: block;
+  margin-bottom: 16px;
+  color: #6b7280;
+}
+
+.buttons {
+  margin-top: 32px;
+  display: flex;
+  gap: 16px;
+}
+
+.primary {
+  background: #0b5ed7;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.secondary {
+  background: #e7f1ff;
+  color: #0b5ed7;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.placeholder {
+  background: #e5e7eb;
+  border-radius: 16px;
+  height: 280px;
+}
+
+/* Primeira seção */
+.first-section {
+  background: #ffffff;
+  padding-top: 33px !important;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #0b3a6f;
+  margin-bottom: 8px;
+}
+
+.section-date {
+  font-weight: 500;
+  color: #0b5ed7;
+  margin-bottom: 0px;
+}
+
+.section-text {
+  color: #1f3b64;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+/* Segunda seção */
+.second-section {
+  background: #ffffff;
+  margin-bottom: 2%;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #0b3a6f;
+  margin-bottom: 8px;
+}
+
+.section-text {
+  color: #1f3b64;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+/* Placeholder da imagem */
+
+.image-placeholder {
+  width: 100%;
+  height: 320px;
+  background: #e5e5e5;
+  border-radius: 24px;
+}
+.slogan-event {
+  font-style: italic;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #0b3a6f;
+  margin-bottom: 16px;
+}

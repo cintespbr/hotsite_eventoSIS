@@ -1,0 +1,48 @@
+.speakers-section {
+  background: #0b3a6f;
+  padding: 80px 0;
+}
+
+/* TÍTULOS */
+
+.speakers-title {
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.speakers-subtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-bottom: 56px;
+}
+
+/* BLOCO DE CADA DIA */
+
+.resume {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+/* BOTÃO */
+
+.speakers-cta {
+  text-align: center;
+  margin-top: 48px;
+}
+
+.speakers-button {
+  background: #d9ecff;
+  color: #0b3a6f;
+  border: none;
+  padding: 14px 36px;
+  border-radius: 14px;
+  font-size: 1rem;
+  cursor: pointer;
+}

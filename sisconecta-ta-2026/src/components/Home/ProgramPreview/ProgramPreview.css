@@ -1,0 +1,77 @@
+.program-section {
+  background: #ffffff;
+  padding: 80px 0;
+}
+
+/* TÍTULOS */
+
+.program-title {
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #0b3a6f;
+  margin-bottom: 8px;
+}
+
+.program-subtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #0b5ed7;
+  margin-bottom: 56px;
+}
+
+/* BLOCO DE CADA DIA */
+
+.program-day {
+  max-width: 760px;
+  margin-bottom: 56px;
+}
+
+.program-date {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #0b3a6f;
+  margin-bottom: 4px;
+}
+
+.program-theme {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #0b3a6f;
+  margin-bottom: 12px;
+}
+
+.program-description {
+  color: #1f3b64;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+/* LISTA */
+
+.program-list {
+  list-style: disc;
+  padding-left: 20px;
+  color: #1f3b64;
+}
+
+.program-list li {
+  margin-bottom: 6px;
+}
+
+/* BOTÃO */
+
+.program-cta {
+  text-align: center;
+  margin-top: 48px;
+}
+
+.program-button {
+  background: #d9ecff;
+  color: #0b3a6f;
+  border: none;
+  padding: 14px 36px;
+  border-radius: 14px;
+  font-size: 1rem;
+  cursor: pointer;
+}

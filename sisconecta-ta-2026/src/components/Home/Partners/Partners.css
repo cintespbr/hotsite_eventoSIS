@@ -1,0 +1,61 @@
+.partners-section {
+  background: #0b4f8a;
+  padding: 80px 0;
+  text-align: center;
+}
+
+/* TÍTULO */
+
+.partners-title {
+  color: #ffffff;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.partners-subtitle {
+  max-width: 820px;
+  margin: 0 auto 56px;
+  color: #dbeeff;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+/* GRID */
+
+.partners-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px 40px;
+}
+
+/* HEXÁGONO */
+
+/* HEXÁGONO COM CONTORNO REAL */
+
+.hex-wrapper {
+  width: 180px;
+  height: 156px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--hex-color);
+  clip-path: polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%);
+}
+
+.hex {
+  width: 168px;
+  height: 144px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clip-path: polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%);
+}
+
+.hex img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}

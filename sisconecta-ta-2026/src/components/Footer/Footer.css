@@ -1,0 +1,93 @@
+.footer {
+  position: relative;
+
+  /* imagem ocupa 100% do fundo */
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+
+  /* altura fluida */
+  min-height: 420px;
+
+  padding: 80px 0 60px;
+}
+/* overlay para contraste */
+.footer-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0);
+}
+
+/* conteúdo */
+
+.footer-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* eixo horizontal */
+  text-align: center; /* texto */
+  gap: 40px;
+}
+
+/* BRAND */
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-brand img {
+  max-width: 220px;
+  margin-bottom: 12px;
+}
+
+.footer-brand p {
+  font-size: 0.9rem;
+  color: #4b5563;
+  max-width: 420px;
+}
+
+/* LINKS */
+
+.footer-links {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+/* SOCIAL */
+
+.footer-social {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 992px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-links {
+    justify-content: center;
+  }
+
+  .footer-social {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,66 @@
+.about-section {
+  background: #0b4f8a;
+  padding: 80px 0;
+}
+
+.about-title {
+  text-align: center;
+  color: #ffffff;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+/* CARDS */
+
+.about-card {
+  height: 100%;
+  border-radius: 24px;
+  padding: 40px;
+}
+
+.about-card h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+/* CARD CLARO */
+
+.about-card.light {
+  background: #ffffff;
+  color: #0b3a6f;
+}
+
+.about-card.light p {
+  line-height: 1.65;
+  margin-bottom: 16px;
+}
+
+/* CARD ESCURO */
+
+.about-card.dark {
+  background: #083b66;
+  color: #ffffff;
+}
+
+.about-card.dark p {
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+/* MAPA */
+
+.map-container {
+  margin-top: 24px;
+  width: 100%;
+  height: 260px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
