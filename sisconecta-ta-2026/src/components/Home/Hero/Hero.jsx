@@ -2,38 +2,37 @@ import "./Hero.css";
 import heroImage from "../../../assets/hero.png";
 export default function Hero() {
   return (
-    <>
-      <section
-        className="position-relative text-white py-5"
-        style={{
-          backgroundImage: `url(${heroImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          minHeight: "600px",
-        }}
-      >
-        <div
-          className="position-absolute w-100 h-100 bg-dark"
-          style={{ opacity: 0, top: 0, left: 0 }}
-        ></div>
-        <div className="container position-relative h-100 d-flex align-items-center justify-content-center">
-          <div className="text-center"></div>
-        </div>
-      </section>
+    <main className="hero-page">
+      {/* HERO */}
+      <section className="hero-hero">
+        <div className="hero-noise" aria-hidden="true"></div>
 
-      {/* PRIMEIRA SESSÃO */}
-      <section className="first-section">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-12 text-center">
-              <h2 className="section-title">
-                SiSconec.TA 2026 – Uberlândia/MG
-              </h2>
-              <p className="section-date">25 e 26 de março de 2026</p>
-              <p className="slogan-event">
-                Evento Nacional da Rede SisAssistiva de Inovação Tecnológica
-                Assistiva
+        <div className="container h-100">
+          <div className="row h-100 align-items-center">
+            {/* TEXTO */}
+            <div className="col-lg-6 text-center text-lg-start hero-text">
+              <h1 className="hero-title">Lorem Ipsun</h1>
+
+              <p className="hero-description">
+                O Sisconec.TA 2026 reúne palestrantes e convidados com
+                trajetórias reconhecidas nas áreas de pesquisa, inovação,
+                regulação, políticas públicas e desenvolvimento tecnológico em
+                Tecnologias Assistivas. A diversidade de formações, experiências
+                e visões é um dos pilares do evento, criando um ambiente de
+                diálogo qualificado e conectado aos desafios reais enfrentados
+                pelo setor no Brasil.
               </p>
+            </div>
+
+            {/* IMAGEM */}
+            <div className="col-lg-6 d-none d-lg-flex justify-content-center">
+              <div className="hero-visual">
+                <img
+                  src={heroImage}
+                  alt="Ilustração representando palestrantes e tecnologias assistivas"
+                  className="hero-image"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -83,6 +82,6 @@ export default function Hero() {
           </div>
         </div>
       </section>
-    </>
+    </main>
   );
 }

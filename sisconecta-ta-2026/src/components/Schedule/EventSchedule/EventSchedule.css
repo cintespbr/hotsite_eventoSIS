@@ -3,6 +3,108 @@
   padding: 80px 0;
 }
 
+/* hero */
+.event-hero {
+  position: relative;
+  min-height: 51vh;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+/* IMAGEM DE FUNDO COM DESFOQUE */
+.event-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../../../assets/event-hero.png");
+  background-size: cover;
+  background-position: center;
+  filter: blur(6px);
+  transform: scale(1.1); /* evita bordas transparentes do blur */
+  z-index: 0;
+}
+
+/* GRADIENTE POR CIMA DA IMAGEM */
+.event-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(8, 63, 122, 0.85) 0%,
+    rgba(11, 79, 138, 0.85) 50%,
+    rgba(10, 60, 110, 0.85) 100%
+  );
+  z-index: 1;
+}
+
+/* CONTEÚDO */
+.event-hero > .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* RUÍDO (NOISE) */
+.event-noise {
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+  pointer-events: none;
+}
+
+/* TEXTO */
+
+.event-text {
+  position: relative;
+  z-index: 2;
+}
+
+.event-title {
+  font-size: clamp(2.5rem, 4vw, 3.2rem);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.event-description {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  max-width: 520px;
+}
+
+/* ===============================
+   IMAGEM / VISUAL
+================================ */
+
+.event-visual {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(6px);
+  border-radius: 20px;
+  padding: 11px;
+  animation: float 6s ease-in-out infinite;
+}
+
+.event-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 15px;
+}
+
+/* ANIMAÇÃO SUAVE */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 .programacao-title {
   text-align: center;
   font-size: 2.4rem;
@@ -30,6 +132,11 @@
   align-items: center;
   font-size: 1rem;
   cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dia-header:hover {
+  background-color: rgba(11, 94, 215, 0.04);
 }
 
 .dia-status {
@@ -50,18 +157,60 @@
 
 /* LINHA DO TEMPO */
 
+.linha-do-tempo > * {
+  overflow: hidden;
+}
+
 .linha-do-tempo {
-  padding: 24px;
-  border-left: 2px solid #0b5ed7;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(-6px);
+  transition:
+    max-height 0.6s ease,
+    opacity 0.4s ease,
+    transform 0.4s ease;
 }
 
+/* ABERTO */
+.linha-do-tempo.is-open {
+  max-height: 2000px; /* valor alto seguro */
+  opacity: 1;
+  transform: translateY(0);
+}
 .evento {
-  display: grid;
-  grid-template-columns: 80px 1fr;
-  gap: 16px;
-  margin-bottom: 24px;
+  display: flex;
+  gap: 24px;
+  margin: 24px 20px 24px 20px;
+  opacity: 0;
+  transform: translateY(8px);
+  transition:
+    opacity 0.4s ease,
+    transform 0.4s ease;
 }
 
+/* quando o dia abre */
+.linha-do-tempo.is-open .evento {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* delay progressivo */
+.linha-do-tempo.is-open .evento:nth-child(1) {
+  transition-delay: 0.05s;
+}
+.linha-do-tempo.is-open .evento:nth-child(2) {
+  transition-delay: 0.1s;
+}
+.linha-do-tempo.is-open .evento:nth-child(3) {
+  transition-delay: 0.15s;
+}
+.linha-do-tempo.is-open .evento:nth-child(4) {
+  transition-delay: 0.2s;
+}
+.linha-do-tempo.is-open .evento:nth-child(5) {
+  transition-delay: 0.25s;
+}
 .hora {
   font-weight: 600;
   color: #0b5ed7;
@@ -83,6 +232,7 @@
   background: #f9f9f9;
   border-radius: 12px;
   padding: 16px 20px;
+  width: 100%;
 }
 
 .evento-card h4 {
@@ -113,4 +263,12 @@
   border-radius: 12px;
   font-weight: 500;
   cursor: pointer;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .linha-do-tempo,
+  .evento {
+    transition: none !important;
+    transform: none !important;
+  }
 }

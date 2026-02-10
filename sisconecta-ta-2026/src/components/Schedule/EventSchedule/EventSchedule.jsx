@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./EventSchedule.css";
+import eventImage from "../../../assets/event-hero.png";
 
 const programacao = [
   {
@@ -83,29 +84,69 @@ export default function Programacao() {
   const [openDay, setOpenDay] = useState(0);
 
   return (
-    <section className="programacao-page">
-      <div className="container">
-        <h1 className="programacao-title">Programação do Evento</h1>
+    <main className="event-page">
+      {/* hero */}
+      <section className="event-hero">
+        <div className="event-noise" aria-hidden="true"></div>
 
-        {programacao.map((dia, index) => (
-          <div key={index} className="programacao-dia">
-            {/* HEADER DO DIA */}
-            <button
-              className="dia-header"
-              onClick={() => setOpenDay(openDay === index ? null : index)}
-            >
-              <div>
-                <strong>Dia {dia.dia}</strong> — {dia.titulo}
+        <div className="container h-100">
+          <div className="row h-100 align-items-center">
+            {/* TEXTO */}
+            <div className="col-lg-6 text-center text-lg-start event-text">
+              <h1 className="event-title">Lorem Ipsun</h1>
+
+              <p className="event-description">
+                O Sisconec.TA 2026 reúne palestrantes e convidados com
+                trajetórias reconhecidas nas áreas de pesquisa, inovação,
+                regulação, políticas públicas e desenvolvimento tecnológico em
+                Tecnologias Assistivas. A diversidade de formações, experiências
+                e visões é um dos pilares do evento, criando um ambiente de
+                diálogo qualificado e conectado aos desafios reais enfrentados
+                pelo setor no Brasil.
+              </p>
+            </div>
+
+            {/* IMAGEM */}
+            <div className="col-lg-6 d-none d-lg-flex justify-content-center">
+              <div className="event-visual">
+                <img
+                  src={eventImage}
+                  alt="Ilustração representando palestrantes e tecnologias assistivas"
+                  className="event-image"
+                />
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-              <span className={`dia-status ${dia.statusType}`}>
-                {dia.status}
-              </span>
-            </button>
+      <section className="programacao-page">
+        <div className="container">
+          <h1 className="programacao-title">Programação do Evento</h1>
 
-            {/* CONTEÚDO */}
-            {openDay === index && (
-              <div className="linha-do-tempo">
+          {programacao.map((dia, index) => (
+            <div key={index} className="programacao-dia">
+              {/* HEADER DO DIA */}
+              <button
+                className="dia-header"
+                onClick={() => setOpenDay(openDay === index ? null : index)}
+              >
+                <div>
+                  <strong>Dia {dia.dia}</strong> — {dia.titulo}
+                </div>
+
+                <span className={`dia-status ${dia.statusType}`}>
+                  {dia.status}
+                </span>
+              </button>
+
+              {/* CONTEÚDO */}
+              <div
+                className={`linha-do-tempo ${
+                  openDay === index ? "is-open" : ""
+                }`}
+                aria-hidden={openDay !== index}
+              >
                 {dia.eventos.map((evento, i) => (
                   <div key={i} className="evento">
                     <div className="hora">{evento.hora}</div>
@@ -117,14 +158,14 @@ export default function Programacao() {
                   </div>
                 ))}
               </div>
-            )}
-          </div>
-        ))}
+            </div>
+          ))}
 
-        <div className="programacao-cta">
-          <button className="btn-inscricao">Realizar inscrição</button>
+          <div className="programacao-cta">
+            <button className="btn-inscricao">Realizar inscrição</button>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
   );
 }

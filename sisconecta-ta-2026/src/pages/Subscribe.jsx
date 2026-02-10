@@ -1,10 +1,10 @@
-import Programacao from "../components/Schedule/EventSchedule/EventSchedule";
+import Subscribe from "../components/Subscribe/Subscribe";
 import TechnicalGuides from "../components/Home/TechnicalGuides/TechnicalGuides";
 
-export default function Schedule() {
+export default function SubscribePage() {
   return (
     <>
-      <Programacao />
+      <Subscribe />
       <TechnicalGuides />
     </>
   );
