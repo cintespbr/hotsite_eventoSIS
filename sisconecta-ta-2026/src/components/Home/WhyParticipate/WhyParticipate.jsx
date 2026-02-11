@@ -1,5 +1,6 @@
 import "./WhyParticipate.css";
 import whyImage from "../../../assets/why-participate.png";
+import { Link } from "react-router-dom";
 
 export default function WhyParticipate() {
   return (
@@ -11,7 +12,7 @@ export default function WhyParticipate() {
             <h2 className="why-title">Por Que Participar?</h2>
 
             <p className="why-subtitle">
-              Participar do conecTA – Sis 2026 é fazer parte de um movimento que
+              Participar do Sisconec.TA 2026 é fazer parte de um movimento que
               acredita na inovação como ferramenta de inclusão social.
             </p>
 
@@ -35,9 +36,9 @@ export default function WhyParticipate() {
               </li>
             </ul>
 
-            <a className="why-button" href="/inscricoes">
+            <Link className="why-button" to="/inscricoes">
               Realizar inscrição
-            </a>
+            </Link>
           </div>
 
           {/* COLUNA IMAGEM */}
