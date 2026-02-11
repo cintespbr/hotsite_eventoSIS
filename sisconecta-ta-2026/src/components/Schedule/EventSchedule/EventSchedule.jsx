@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./EventSchedule.css";
 import eventImage from "../../../assets/event-hero.png";
 
@@ -93,16 +94,16 @@ export default function Programacao() {
           <div className="row h-100 align-items-center">
             {/* TEXTO */}
             <div className="col-lg-6 text-center text-lg-start event-text">
-              <h1 className="event-title">Lorem Ipsun</h1>
+              <h1 className="event-title">
+                Programação Oficial do Sisconec.TA 2026
+              </h1>
 
               <p className="event-description">
-                O Sisconec.TA 2026 reúne palestrantes e convidados com
-                trajetórias reconhecidas nas áreas de pesquisa, inovação,
-                regulação, políticas públicas e desenvolvimento tecnológico em
-                Tecnologias Assistivas. A diversidade de formações, experiências
-                e visões é um dos pilares do evento, criando um ambiente de
-                diálogo qualificado e conectado aos desafios reais enfrentados
-                pelo setor no Brasil.
+                Dois dias de conteúdo estratégico, debates qualificados e
+                conexões que impulsionam a inovação em Tecnologias Assistivas no
+                Brasil. A programação reúne pesquisadores, gestores públicos,
+                indústria e representantes da sociedade civil em um ambiente
+                pensado para gerar diálogo, colaboração e impacto real.
               </p>
             </div>
 
@@ -162,9 +163,9 @@ export default function Programacao() {
           ))}
 
           <div className="programacao-cta">
-            <a className="btn-inscricao" href="/inscricoes">
+            <Link className="btn-inscricao" to="/inscricoes">
               Realizar inscrição
-            </a>
+            </Link>
           </div>
         </div>
       </section>

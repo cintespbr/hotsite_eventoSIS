@@ -12,16 +12,15 @@ export default function Subscribe() {
           <div className="row h-100 align-items-center">
             {/* TEXTO */}
             <div className="col-lg-6 text-center text-lg-start subscribe-text">
-              <h1 className="subscribe-title">Lorem Ipsun</h1>
+              <h1 className="subscribe-title">
+                Garanta sua participação no Sisconec.TA 2026
+              </h1>
 
               <p className="subscribe-description">
-                O Sisconec.TA 2026 reúne palestrantes e convidados com
-                trajetórias reconhecidas nas áreas de pesquisa, inovação,
-                regulação, políticas públicas e desenvolvimento tecnológico em
-                Tecnologias Assistivas. A diversidade de formações, experiências
-                e visões é um dos pilares do evento, criando um ambiente de
-                diálogo qualificado e conectado aos desafios reais enfrentados
-                pelo setor no Brasil.
+                Participe de um dos principais encontros nacionais dedicados à
+                inovação em Tecnologias Assistivas. Realize sua inscrição e faça
+                parte de um ecossistema que conecta ciência, indústria, governo
+                e comunidade na construção de soluções inclusivas para o futuro.
               </p>
             </div>
 

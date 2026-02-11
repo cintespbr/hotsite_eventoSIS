@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./ProgramPreview.css";
 
 export default function ProgramPreview() {
@@ -12,7 +13,7 @@ export default function ProgramPreview() {
 
         {/* DIA 1 */}
         <div className="program-day">
-          <h3 className="program-date">25 De Março De 2026</h3>
+          <h3 className="program-date">20 De Março De 2026</h3>
           <h4 className="program-theme">Governança, Inovação E Comunidade</h4>
 
           <p className="program-description">
@@ -32,7 +33,7 @@ export default function ProgramPreview() {
 
         {/* DIA 2 */}
         <div className="program-day">
-          <h3 className="program-date">26 De Março De 2026</h3>
+          <h3 className="program-date">21 De Março De 2026</h3>
           <h4 className="program-theme">
             Estruturação, Qualidade E Transferência
           </h4>
@@ -53,9 +54,9 @@ export default function ProgramPreview() {
         </div>
 
         <div className="program-cta">
-          <a className="program-button" href="/programacao">
+          <Link className="program-button" to="/programacao">
             Ver Programação Completa
-          </a>
+          </Link>
         </div>
       </div>
     </section>

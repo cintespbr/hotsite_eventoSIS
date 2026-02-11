@@ -1,35 +1,42 @@
 import "./Partners.css";
+import cintesp from "../../../assets/partners/cintesp.png";
+import sislab from "../../../assets/partners/sislab.png";
+import sisassistiva from "../../../assets/partners/sisassistiva.png";
+import futel from "../../../assets/partners/futel.png";
+import ufu from "../../../assets/partners/ufu.png";
+import finep from "../../../assets/partners/finep.png";
+import viver from "../../../assets/partners/viver.png";
+import gov from "../../../assets/partners/gov.png";
 
-// depois isso pode vir de API ou CMS
 const partners = [
   {
     name: "CINTESP.br",
-    logo: "/src/assets/partners/cintesp.png",
+    logo: cintesp,
     color: "#8d44ad",
   },
   {
     name: "SisLab",
-    logo: "/src/assets/partners/sislab.png",
+    logo: sislab,
     color: "#f39d12",
   },
   {
     name: "SisAssistiva",
-    logo: "/src/assets/partners/sisassistiva.png",
+    logo: sisassistiva,
     color: "#9c59b6",
   },
   {
-    name: "Prefeitura de Uberlândia",
-    logo: "/src/assets/partners/futel.png",
+    name: "FUTEL",
+    logo: futel,
     color: "#2ecc70",
   },
-  { name: "UFU", logo: "/src/assets/partners/ufu.png", color: "#f39d12" },
-  { name: "Finep", logo: "/src/assets/partners/finep.png", color: "#2ecc70" },
+  { name: "UFU", logo: ufu, color: "#f39d12" },
+  { name: "Finep", logo: finep, color: "#2ecc70" },
   {
     name: "Viver sem Limite",
-    logo: "/src/assets/partners/viver.png",
+    logo: viver,
     color: "#f39d12",
   },
-  { name: "gov", logo: "/src/assets/partners/gov.png", color: "#9c59b6" },
+  { name: "gov", logo: gov, color: "#9c59b6" },
 ];
 
 export default function Partners() {

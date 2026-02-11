@@ -1,6 +1,7 @@
 import "./Hero.css";
 import heroImage from "../../../assets/hero.png";
 import section1Img from "../../../assets/section1.png";
+import { Link } from "react-router-dom";
 export default function Hero() {
   return (
     <main className="hero-page">
@@ -12,17 +13,23 @@ export default function Hero() {
           <div className="row h-100 align-items-center">
             {/* TEXTO */}
             <div className="col-lg-6 text-center text-lg-start hero-text">
-              <h1 className="hero-title">Lorem Ipsun</h1>
+              <h1 className="hero-title">
+                SisConec.TA 2026 – Tecnologia Assistiva com Impacto Social
+              </h1>
 
               <p className="hero-description">
-                O Sisconec.TA 2026 reúne palestrantes e convidados com
-                trajetórias reconhecidas nas áreas de pesquisa, inovação,
-                regulação, políticas públicas e desenvolvimento tecnológico em
-                Tecnologias Assistivas. A diversidade de formações, experiências
-                e visões é um dos pilares do evento, criando um ambiente de
-                diálogo qualificado e conectado aos desafios reais enfrentados
-                pelo setor no Brasil.
+                O SisConec.TA 2026 é o encontro nacional da Rede SisAssistiva
+                dedicado à apresentação de soluções em Tecnologia Assistiva com
+                foco na entrega à sociedade. O evento reunirá estudantes,
+                pesquisadores, gestores públicos, empresas e sociedade civil
+                para conhecer tecnologias já prontas para uso, desenvolvidas
+                para ampliar acessibilidade e autonomia. A iniciativa reforça o
+                compromisso de transformar conhecimento e investimento em
+                impacto social concreto no Brasil.
               </p>
+              <Link className="btn btn-primary btn-lg" to="/inscricoes">
+                Faça sua Inscrição
+              </Link>
             </div>
 
             {/* IMAGEM */}
@@ -65,15 +72,15 @@ export default function Hero() {
               </p>
 
               <div className="d-flex gap-3 mt-4">
-                <a className="btn btn-primary btn-lg" href="/inscricoes">
+                <Link className="btn btn-primary btn-lg" to="/inscricoes">
                   Se Inscrever
-                </a>
-                <a
+                </Link>
+                <Link
                   className="btn btn-outline-primary btn-lg"
-                  href="/programacao"
+                  to="/programacao"
                 >
                   Ver Programação
-                </a>
+                </Link>
               </div>
             </div>
 

@@ -13,7 +13,7 @@ export default function Speakers() {
         {/* RESUME */}
         <div className="resume">
           <p className="speakers-description">
-            O conecTA – Sis 2026 reúne especialistas reconhecidos nacionalmente,
+            O Sisconec.TA 2026 reúne especialistas reconhecidos nacionalmente,
             pesquisadores, gestores públicos e representantes da indústria,
             criando um ambiente plural, qualificado e orientado à prática. Os
             convidados trazem diferentes perspectivas — científica, regulatória,

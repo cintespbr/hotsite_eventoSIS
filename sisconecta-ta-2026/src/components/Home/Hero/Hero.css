@@ -83,7 +83,7 @@ h2 {
 }
 
 .hero-title {
-  font-size: clamp(2.5rem, 4vw, 3.2rem);
+  font-size: clamp(2.1rem, -1vw, -9.8rem);
   font-weight: 700;
   margin-bottom: 1.5rem;
 }

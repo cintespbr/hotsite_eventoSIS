@@ -1,18 +1,19 @@
 import "./Header.css";
 import logoSis from "../../assets/logo-sisassistiva.svg";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
     <header className="bg-light shadow-sm">
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
-          <a className="navbar-brand fw-bold" href="/">
+          <Link className="navbar-brand fw-bold" to="/">
             <img
               src={logoSis}
               alt="Logo SisAssistiva"
               className="logo-sisassistiva"
             />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -24,14 +25,14 @@ export default function Header() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link" href="/">
-                  SiSconec.TA 2026
-                </a>
+                <Link className="nav-link" to="/">
+                  Sisconec.TA 2026
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/programacao">
+                <Link className="nav-link" to="/programacao">
                   Programação
-                </a>
+                </Link>
               </li>
               {/* <li className="nav-item">
                 <a className="nav-link" href="#">
@@ -39,9 +40,9 @@ export default function Header() {
                 </a>
               </li> */}
               <li className="nav-item">
-                <a className="nav-link" href="/inscricoes">
+                <Link className="nav-link" to="/inscricoes">
                   Inscrições
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

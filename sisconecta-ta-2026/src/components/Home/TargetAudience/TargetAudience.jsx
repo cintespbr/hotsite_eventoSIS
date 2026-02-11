@@ -7,7 +7,7 @@ export default function TargetAudience() {
         <h2 className="target-title">Para quem é o SiSconec.TA 2026</h2>
 
         <p className="target-subtitle">
-          O conecTA – Sis 2026 é direcionado a todos que atuam ou se interessam
+          O Sisconec.TA 2026 é direcionado a todos que atuam ou se interessam
           pelo ecossistema de Tecnologias Assistivas:
         </p>
 

@@ -1,5 +1,6 @@
 import "./Footer.css";
 import footerBg from "../../assets/Rectangle 127.png";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -19,7 +20,7 @@ export default function Footer() {
           <ul>
             <li>Sisconec.TA 2026</li>
             <li>
-              <a href="/programacao">Programação</a>
+              <Link to="/programacao">Programação</Link>
             </li>
             <li>Palestrantes</li>
             <li>inscrições</li>

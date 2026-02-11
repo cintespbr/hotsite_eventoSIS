@@ -1,5 +1,7 @@
 import "./Registration.css";
 import SubscribeImg from "../../../assets/subscribe-image.png";
+import { Link } from "react-router-dom";
+
 export default function Registration() {
   return (
     <section className="registration-section">
@@ -14,15 +16,15 @@ export default function Registration() {
             </h2>
 
             <p className="registration-text">
-              O conecTA – Sis 2026 convida você a participar de um encontro que
+              O Sisconec.TA 2026 convida você a participar de um encontro que
               acredita no diálogo, na colaboração e na inovação como motores da
               inclusão social. Garanta sua participação e integre essa rede que
               trabalha para fortalecer as Tecnologias Assistivas no Brasil.
             </p>
 
-            <a className="registration-button" href="/inscricoes">
+            <Link className="registration-button" to="/inscricoes">
               Realizar inscrição
-            </a>
+            </Link>
           </div>
 
           {/* IMAGEM / PLACEHOLDER */}
