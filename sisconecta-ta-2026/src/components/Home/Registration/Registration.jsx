@@ -1,5 +1,5 @@
 import "./Registration.css";
-
+import SubscribeImg from "../../../assets/subscribe-image.png";
 export default function Registration() {
   return (
     <section className="registration-section">
@@ -20,12 +20,20 @@ export default function Registration() {
               trabalha para fortalecer as Tecnologias Assistivas no Brasil.
             </p>
 
-            <button className="registration-button">Realizar inscrição</button>
+            <a className="registration-button" href="/inscricoes">
+              Realizar inscrição
+            </a>
           </div>
 
           {/* IMAGEM / PLACEHOLDER */}
           <div className="col-lg-5 d-none d-lg-block">
-            <div className="registration-image"></div>
+            <div className="registration-image">
+              <img
+                src={SubscribeImg}
+                alt="Ilustração representando a inscrição em um evento"
+                className="registration-image"
+              />
+            </div>
           </div>
         </div>
       </div>

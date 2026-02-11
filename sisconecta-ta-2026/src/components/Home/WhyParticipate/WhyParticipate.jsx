@@ -1,4 +1,5 @@
 import "./WhyParticipate.css";
+import whyImage from "../../../assets/why-participate.png";
 
 export default function WhyParticipate() {
   return (
@@ -34,12 +35,20 @@ export default function WhyParticipate() {
               </li>
             </ul>
 
-            <button className="why-button">Realizar inscrição</button>
+            <a className="why-button" href="/inscricoes">
+              Realizar inscrição
+            </a>
           </div>
 
           {/* COLUNA IMAGEM */}
           <div className="col-lg-5 d-none d-lg-block">
-            <div className="why-image-placeholder"></div>
+            <div className="why-image-placeholder">
+              <img
+                src={whyImage}
+                alt="Ilustração representando a participação em um evento"
+                className="why-image-placeholder"
+              />
+            </div>
           </div>
         </div>
       </div>

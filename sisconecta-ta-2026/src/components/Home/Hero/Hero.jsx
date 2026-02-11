@@ -1,5 +1,6 @@
 import "./Hero.css";
 import heroImage from "../../../assets/hero.png";
+import section1Img from "../../../assets/section1.png";
 export default function Hero() {
   return (
     <main className="hero-page">
@@ -64,7 +65,9 @@ export default function Hero() {
               </p>
 
               <div className="d-flex gap-3 mt-4">
-                <button className="btn btn-primary btn-lg">Se Inscrever</button>
+                <a className="btn btn-primary btn-lg" href="/inscricoes">
+                  Se Inscrever
+                </a>
                 <a
                   className="btn btn-outline-primary btn-lg"
                   href="/programacao"
@@ -76,7 +79,11 @@ export default function Hero() {
 
             <div className="col-lg-6 d-none d-lg-block">
               <div className="image-placeholder">
-                {/* futura imagem ou vídeo */}
+                <img
+                  src={section1Img}
+                  alt="Ilustração representando palestrantes e tecnologias assistivas"
+                  className="image-placeholder"
+                />
               </div>
             </div>
           </div>

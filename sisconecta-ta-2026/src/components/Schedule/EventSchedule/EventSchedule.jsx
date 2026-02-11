@@ -162,7 +162,9 @@ export default function Programacao() {
           ))}
 
           <div className="programacao-cta">
-            <button className="btn-inscricao">Realizar inscrição</button>
+            <a className="btn-inscricao" href="/inscricoes">
+              Realizar inscrição
+            </a>
           </div>
         </div>
       </section>
