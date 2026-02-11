@@ -18,22 +18,28 @@ export default function Footer() {
         {/* LINKS */}
         <div className="footer-links">
           <ul>
-            <li>Sisconec.TA 2026</li>
+            <li>
+              <Link to="/">Sisconec.TA 2026</Link>
+            </li>
             <li>
               <Link to="/programacao">Programação</Link>
             </li>
-            <li>Palestrantes</li>
-            <li>inscrições</li>
-            <li>Âncora</li>
+            <li>
+              <Link to="/palestrantes">Palestrantes</Link>
+            </li>
+            <li>
+              <Link to="/inscricoes">Inscrições</Link>
+            </li>
           </ul>
         </div>
 
-        {/* CONTATOS / REDES */}
+        {/* CONTATOS / REDES 
         <div className="footer-social">
           <span>Instagram</span>
           <span>Facebook</span>
           <span>E-mail</span>
         </div>
+        */}
       </div>
     </footer>
   );
