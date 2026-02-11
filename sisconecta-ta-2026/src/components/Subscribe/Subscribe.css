@@ -1,0 +1,162 @@
+/* ===============================
+   BASE
+================================ */
+
+.subscribe-page {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* ===============================
+   HERO
+================================ */
+
+.subscribe-hero {
+  position: relative;
+  min-height: 51vh;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+/* IMAGEM DE FUNDO COM DESFOQUE */
+.subscribe-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../../assets/hero-incris.png");
+  background-size: cover;
+  background-position: center;
+  filter: blur(6px);
+  transform: scale(1.1); /* evita bordas transparentes do blur */
+  z-index: 0;
+}
+
+/* GRADIENTE POR CIMA DA IMAGEM */
+.subscribe-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(8, 63, 122, 0.85) 0%,
+    rgba(11, 79, 138, 0.85) 50%,
+    rgba(10, 60, 110, 0.85) 100%
+  );
+  z-index: 1;
+}
+
+/* CONTEÚDO */
+.subscribe-hero > .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* RUÍDO (NOISE) */
+.subscribe-noise {
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+  pointer-events: none;
+}
+
+/* TEXTO */
+
+.subscribe-text {
+  position: relative;
+  z-index: 2;
+}
+
+.subscribe-title {
+  font-size: clamp(2.5rem, 4vw, 3.2rem);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.subscribe-description {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  max-width: 520px;
+}
+
+/* ===============================
+   IMAGEM / VISUAL
+================================ */
+
+.subscribe-visual {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(6px);
+  border-radius: 20px;
+  padding: 11px;
+  animation: float 6s ease-in-out infinite;
+}
+
+.subscribe-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 15px;
+}
+
+/* ANIMAÇÃO SUAVE */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* ===============================
+   FORMULÁRIO
+================================ */
+
+.subscribe-form-section {
+  min-height: 230vh;
+  background: #f8f9fb;
+}
+
+.subscribe-form-wrapper {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 0;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
+  height: 226vh;
+  overflow: hidden;
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+
+/* IFRAME */
+
+.subscribe-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* ===============================
+   RESPONSIVO
+================================ */
+
+@media (max-width: 991px) {
+  .subscribe-hero {
+    min-height: auto;
+    padding: 80px 0;
+    text-align: center;
+  }
+
+  .subscribe-description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .subscribe-form-wrapper {
+    height: 355vh;
+  }
+}

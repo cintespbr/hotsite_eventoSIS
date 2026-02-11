@@ -18,7 +18,7 @@ export default function Home() {
       <TargetAudience />
       <Showcase />
       <ProgramPreview />
-      <Speakers />
+      {/*<Speakers />*/}
       <TechnicalGuides />
       <Registration />
       <Partners />

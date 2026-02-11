@@ -33,13 +33,13 @@ export default function Header() {
                   Programação
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#">
                   Palestrantes
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/inscricoes">
                   Inscrições
                 </a>
               </li>
