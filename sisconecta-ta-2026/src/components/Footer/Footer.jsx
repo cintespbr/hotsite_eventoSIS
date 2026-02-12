@@ -1,6 +1,7 @@
 import "./Footer.css";
 import footerBg from "../../assets/Rectangle 127.png";
 import { Link } from "react-router-dom";
+import logo from "../../assets/logo2-sisassistiva.svg";
 
 export default function Footer() {
   return (
@@ -11,7 +12,7 @@ export default function Footer() {
       <div className="container footer-content">
         {/* LOGO / IDENTIDADE */}
         <div className="footer-brand">
-          <img src="/src/assets/logo2-sisassistiva.svg" alt="SisAssistiva" />
+          <img src={logo} alt="SisAssistiva" />
           <p>Sistema Nacional de Laboratórios de Tecnologias Assistivas</p>
         </div>
 
