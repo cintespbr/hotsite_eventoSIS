@@ -1,5 +1,5 @@
 import "./Header.css";
-import logoSis from "../../assets/logo-sisassistiva.svg";
+import logoSis from "../../assets/logo-sis2.svg";
 import { Link } from "react-router-dom";
 
 export default function Header() {

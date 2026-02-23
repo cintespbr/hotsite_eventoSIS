@@ -41,12 +41,18 @@ export default function Subscribe() {
       {/* FORMULÁRIO */}
       <section className="subscribe-form-section">
         <div className="container-fluid h-100">
-          <div className="row h-100 justify-content-center align-items-center">
-            <div className="col-12 col-xl-10">
-              <div className="subscribe-form-wrapper">
+          <div className="row h-100 justify-content-center">
+            {/* Coluna do Formulário - Ocupa 8 colunas para dar respiro nas laterais */}
+            <div className="col-12 col-lg-8 col-xl-7">
+              <div
+                className="subscribe-form-wrapper"
+                style={{ position: "relative", zIndex: 1 }}
+              >
                 <iframe
                   title="Formulário de Inscrição Sisconec.TA 2026"
                   src="https://docs.google.com/forms/d/e/1FAIpQLSfJbM5D3g1lou0hr2Vyll7LkZn1DNAOvhHvIGaYMsSg1YWp8Q/viewform?embedded=true"
+                  width="100%"
+                  height="800"
                   frameBorder="0"
                   marginHeight="0"
                   marginWidth="0"
@@ -55,6 +61,12 @@ export default function Subscribe() {
                   Carregando…
                 </iframe>
               </div>
+            </div>
+
+            {/* Coluna "Invisível" ou de Respiro para o VLibras */}
+            {/* Se o seu VLibras fica na direita, essa coluna garante que o form não fique "debaixo" dele */}
+            <div className="col-lg-1 d-none d-lg-block">
+              {/* Espaço reservado para o widget não sobrepor o conteúdo útil */}
             </div>
           </div>
         </div>
