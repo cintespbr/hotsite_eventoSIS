@@ -17,25 +17,30 @@ const programacao = [
       },
       {
         hora: "09h00",
-        titulo: "Abertura Institucional",
+        titulo: "Abertura do evento",
         descricao:
-          "Sessão de abertura institucional com coordenação do SISLAB e do CINTESP.Br, contando com a participação de Reitor da UFU, Diretor da FUTEL, Prefeito de Uberlândia, representantes da FINEP, startups, SEBRAE e gestores públicos. A atividade contará com recursos de acessibilidade comunicacional, incluindo Libras.",
+          "Sessão de abertura do evento com a presença de autoridades, apresentações e lançamentos",
       },
       {
         hora: "11h00",
-        titulo:
-          "Apresentação de Produtos Assistivos Inovadores da Rede SisAssistiva",
+        titulo: "Homenagens aos atletas paralímpicos",
         descricao:
-          "Apresentação dos projetos aprovados no edital FINEP 2022, em formato de pitch, com destaque para soluções desenvolvidas, aplicações práticas e impacto social.",
+          "Homenagem a atletas paralímpicos e apresentação de performace conceitual de modalidade paralímpica",
       },
       {
         hora: "11h00",
-        titulo: "Mostra Interativa de Tecnologias Assistivas",
+        titulo: "Apresentação de produtos assistivos",
         descricao:
-          "Exposição e experimentação de produtos assistivos, protótipos e soluções desenvolvidas por empresas e projetos da Rede SisAssistiva.",
+          "Apresentação Pitch de produtos assistivos inovadores da Rede SisAssistiva.",
       },
       {
-        hora: "17h30",
+        hora: " 12h30",
+        titulo: "Mostra interativa e Oficinas interativas",
+        descricao:
+          "Exposição, experimentação e atividades práticas com produtos da Rede SisAssistiva, empresas parceiras e tecnologias assistivas diversas.",
+      },
+      {
+        hora: " 14h00",
         titulo: "Painéis para Negócios em Tecnologias Assistivas",
         descricao:
           "Painéis voltados à discussão de oportunidades de negócio, fomento e desenvolvimento em Tecnologias Assistivas.",
@@ -56,9 +61,9 @@ const programacao = [
       },
       {
         hora: "09h00",
-        titulo: "Mesa de Conversas da Rede SisAssistiva",
+        titulo: "Atividade Cultural",
         descricao:
-          "Mesa-redonda mediada pelo SISLAB com foco na apresentação das principais dificuldades enfrentadas pelos projetos.",
+          "Atividade Cultural com o Lançamento do Mapa de Projetos do SisAssistiva e Mesa de Converça da Rede SisAssistiva",
       },
       {
         hora: "10h30",
@@ -66,16 +71,43 @@ const programacao = [
         descricao: "Pausa para integração e networking entre os participantes.",
       },
       {
-        hora: "14h00",
+        hora: "11h00",
+        titulo: "Atendimento FINEP",
+        descricao: "Atendimento técnico e consultoria especializada do FINEP.",
+      },
+      {
+        hora: "12h00",
         titulo: "Almoço — Livre",
         descricao:
           "Intervalo para almoço, com retorno às atividades no período da tarde.",
       },
       {
-        hora: "18h00",
+        hora: "14h00",
         titulo: "Painel 1 — INMETRO / ANVISA",
         descricao:
           "Painel dedicado à acreditação, regulação e ensaios técnicos aplicáveis às Tecnologias Assistivas.",
+      },
+      {
+        hora: "15h30",
+        titulo: "Intervalo — Coffee Break",
+        descricao: "Pausa para integração e networking entre os participantes.",
+      },
+      {
+        hora: "16H00",
+        titulo: "Painel 2 - Ciência, Mercado e Impacto",
+        descricao:
+          "Painel dedicado à Ciência, Mercado e Impacto Social da universidade para a sociedade: transferência tecnológica em Tecnologias Assistivas",
+      },
+      {
+        hora: "17h30",
+        titulo: "Encerramento do evento",
+        descricao:
+          "Encerramento oficial do evento com agradecimentos e perspectivas futuras para a Rede SisAssistiva.",
+      },
+      {
+        hora: "19h30",
+        titulo: "Confraternização por adesão",
+        descricao: "Evento de confraternização.",
       },
     ],
   },

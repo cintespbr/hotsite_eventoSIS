@@ -14,11 +14,11 @@ export default function Hero() {
             {/* TEXTO */}
             <div className="col-lg-6 text-center text-lg-start hero-text">
               <h1 className="hero-title">
-                SisConec.TA 2026 – Tecnologia Assistiva com Impacto Social
+                Sisconec.TA 2026 – Tecnologia Assistiva com Impacto Social
               </h1>
 
               <p className="hero-description">
-                O SisConec.TA 2026 é o encontro nacional da Rede SisAssistiva
+                O Sisconec.TA 2026 é o encontro nacional da Rede SisAssistiva
                 dedicado à apresentação de soluções em Tecnologia Assistiva com
                 foco na entrega à sociedade. O evento reunirá estudantes,
                 pesquisadores, gestores públicos, empresas e sociedade civil
