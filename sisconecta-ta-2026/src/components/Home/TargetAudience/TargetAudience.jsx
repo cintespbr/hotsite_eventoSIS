@@ -4,7 +4,7 @@ export default function TargetAudience() {
   return (
     <section className="target-section">
       <div className="container">
-        <h2 className="target-title">Para quem é o SiSconec.TA 2026</h2>
+        <h2 className="target-title">Para quem é o Sisconec.TA 2026</h2>
 
         <p className="target-subtitle">
           O Sisconec.TA 2026 é direcionado a todos que atuam ou se interessam
