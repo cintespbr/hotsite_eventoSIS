@@ -46,7 +46,6 @@ export default function ProgramPreview() {
 
           <ul className="program-list">
             <li>Mesas Técnicas E Mediação De Desafios</li>
-            <li>Clínica FINEP</li>
             <li>Painéis INMETRO E ANVISA</li>
             <li>Ciência, Mercado E Transferência Tecnológica</li>
             <li>Encerramento E Pactuações Estratégicas</li>

@@ -9,14 +9,14 @@
 .showcase-title {
   font-size: 2.4rem;
   font-weight: 700;
-  color: #0b3a6f;
+  color: #232399;
   margin-bottom: 8px;
 }
 
 .showcase-subtitle {
   max-width: 720px;
   margin: 0 auto 24px;
-  color: #0b3a6f;
+  color: #232399;
 }
 
 .showcase-divider {
@@ -93,7 +93,7 @@
   background: transparent;
   border: none;
   font-size: 48px;
-  color: #0b3a6f;
+  color: #232399;
   cursor: pointer;
   z-index: 3;
 }
