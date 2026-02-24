@@ -1,5 +1,5 @@
 .target-section {
-  background: #0b4f8a;
+  background: #232399;
   padding: 80px 0;
 }
 
@@ -22,7 +22,7 @@
 
 .target-card {
   position: relative;
-  background: #0074da;
+  background: #F9820B;
   border-radius: 28px;
   padding: 40px 32px;
   max-width: 900px;
@@ -30,7 +30,7 @@
   z-index: 1;
 }
 
-/* CAMADA AZUL CLARA (SOMBRA SÓLIDA) */
+/* CAMADA LARANJA CLARA (SOMBRA SÓLIDA) */
 .target-card::before {
   content: "";
   position: absolute;
@@ -51,12 +51,12 @@
 }
 
 .target-list li {
-  background: #e1f0ff;
+  background: #f9820b3e;
   border-radius: 999px;
   padding: 14px 20px;
   margin-bottom: 16px;
   font-size: 1rem;
-  color: #0b3a6f;
+  color: #f9820b;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -66,6 +66,6 @@
 
 .target-list li::before {
   content: "✓";
-  color: #0b5ed7;
+  color: #F9820B;
   font-weight: 700;
 }
