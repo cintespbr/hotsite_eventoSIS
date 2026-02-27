@@ -10,7 +10,7 @@ import gov from "../../../assets/partners/gov.png";
 
 const partners = [
   {
-    name: "CINTESP.br",
+    name: "CINTESP.Br",
     logo: cintesp,
     color: "#8d44ad",
   },

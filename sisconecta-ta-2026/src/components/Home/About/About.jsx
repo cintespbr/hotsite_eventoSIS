@@ -30,7 +30,7 @@ export default function About() {
                 compreensão e apropriação por usuários, profissionais e
                 organizações públicas e privadas. O protagonismo técnico e
                 institucional é conduzido pelo SisLab e pelo
-                <strong> CINTESP.br</strong>, que lideram a articulação dos
+                <strong> CINTESP.Br</strong>, que lideram a articulação dos
                 conteúdos, conexões e diretrizes técnicas, garantindo coerência
                 estratégica, profundidade técnica e alinhamento com políticas
                 públicas e demandas reais do setor.
