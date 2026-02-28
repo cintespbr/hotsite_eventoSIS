@@ -168,9 +168,9 @@ export default function Programacao() {
                   <strong>Dia {dia.dia}</strong> — {dia.titulo}
                 </div>
 
-                <span className={`dia-status ${dia.statusType}`}>
+                {/*<span className={`dia-status ${dia.statusType}`}>
                   {dia.status}
-                </span>
+                </span>*/}
               </button>
 
               {/* CONTEÚDO */}
