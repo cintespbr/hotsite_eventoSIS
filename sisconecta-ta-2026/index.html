@@ -1,12 +1,18 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/conec-ta.logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>sisconec.TA 2026</title>
     <link
@@ -23,14 +29,29 @@
       </div>
     </div>
 
-    <script id="vlibras-script" src="https://vlibras.gov.br/app/vlibras-plugin.js" async></script>
+    <script
+      id="vlibras-script"
+      src="https://vlibras.gov.br/app/vlibras-plugin.js"
+      async
+    ></script>
     <script>
       if (window && window.VLibras && window.VLibras.Widget) {
-        try { new window.VLibras.Widget('https://vlibras.gov.br/app'); } catch(e) { console.error('VLibras init error', e); }
+        try {
+          new window.VLibras.Widget("https://vlibras.gov.br/app");
+        } catch (e) {
+          console.error("VLibras init error", e);
+        }
       } else {
         // If the script loads after this, it will initialize itself via the plugin's internal loader
         // but we call init again after a short timeout to be safe.
-        setTimeout(function(){ try { if(window.VLibras && window.VLibras.Widget) new window.VLibras.Widget('https://vlibras.gov.br/app'); } catch(e) { console.error('VLibras delayed init error', e); } }, 800);
+        setTimeout(function () {
+          try {
+            if (window.VLibras && window.VLibras.Widget)
+              new window.VLibras.Widget("https://vlibras.gov.br/app");
+          } catch (e) {
+            console.error("VLibras delayed init error", e);
+          }
+        }, 800);
       }
     </script>
     <div id="root"></div>

@@ -7,6 +7,8 @@ import ufu from "../../../assets/partners/ufu.png";
 import finep from "../../../assets/partners/finep.png";
 import viver from "../../../assets/partners/viver.png";
 import gov from "../../../assets/partners/gov.png";
+import granExecutive from "../../../assets/partners/Logotipo-Grn-Dourado.jpg";
+import ExecutiveInn from "../../../assets/partners/ExecutiveInn.png";
 
 const partners = [
   {
@@ -37,6 +39,17 @@ const partners = [
     color: "#f39d12",
   },
   { name: "gov", logo: gov, color: "#9c59b6" },
+  {
+    name: "Gran Executive",
+    logo: granExecutive,
+    color: "#2ecc70",
+    bgColor: "#000000",
+  },
+  {
+    name: "Executive Inn",
+    logo: ExecutiveInn,
+    color: "#f39d12",
+  },
 ];
 
 export default function Partners() {
@@ -61,7 +74,10 @@ export default function Partners() {
             <div
               key={index}
               className="hex-wrapper"
-              style={{ "--hex-color": partner.color }}
+              style={{
+                "--hex-color": partner.color,
+                "--bg-color": partner.bgColor,
+              }}
             >
               <div className="hex">
                 <img src={partner.logo} alt={partner.name} />
