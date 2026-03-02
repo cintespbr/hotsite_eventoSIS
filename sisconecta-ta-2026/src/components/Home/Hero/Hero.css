@@ -39,7 +39,7 @@ h2 {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("../../../assets/hero.png");
+  background-image: url("../../../assets/section1.jpeg");
   background-size: cover;
   background-position: center;
   filter: blur(6px);
@@ -55,7 +55,7 @@ h2 {
   background: linear-gradient(
     135deg,
     rgba(8, 63, 122, 0.85) 0%,
-    rgba(11, 79, 138, 0.85) 50%,
+    rgb(11 79 138 / 58%) 50%,
     rgba(10, 60, 110, 0.85) 100%
   );
   z-index: 1;
