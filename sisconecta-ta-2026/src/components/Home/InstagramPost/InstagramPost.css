@@ -1,0 +1,88 @@
+.instagram-section {
+  background: #f5f5f7;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.instagram-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2e3192;
+  margin-bottom: 3rem;
+}
+
+.instagram-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 4rem;
+}
+
+.instagram-card {
+  background: white;
+  border-radius: 18px;
+  overflow: hidden;
+  width: 320px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.instagram-card:hover {
+  transform: translateY(-8px);
+}
+
+.instagram-card img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+.instagram-actions {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  font-size: 18px;
+  gap: 12px;
+}
+
+.instagram-actions .liked {
+  color: #e63946;
+}
+
+.instagram-actions .save {
+  margin-left: auto;
+}
+
+.instagram-cta {
+  max-width: 700px;
+  margin: 0 404px;
+  text-align: left;
+}
+
+.instagram-cta h3 {
+  font-size: 1.5rem;
+  color: #2e3192;
+  margin-bottom: 1rem;
+}
+
+.instagram-cta p {
+  color: #2e3192;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.instagram-button {
+  display: inline-block;
+  background: #2e3192;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.instagram-button:hover {
+  background: #1f2270;
+}
