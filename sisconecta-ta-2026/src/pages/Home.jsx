@@ -8,12 +8,14 @@ import ProgramPreview from "../components/Home/ProgramPreview/ProgramPreview";
 /*import TechnicalGuides from "../components/Home/TechnicalGuides/TechnicalGuides";*/
 import Registration from "../components/Home/Registration/Registration";
 import Partners from "../components/Home/Partners/Partners";
+import InstagramPost from "../components/Home/InstagramPost/InstagramPost";
 
 export default function Home() {
   return (
     <>
       <Hero />
       <About />
+      <InstagramPost />
       <WhyParticipate />
       <TargetAudience />
       <Showcase />
