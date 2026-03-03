@@ -56,7 +56,7 @@
 
 .instagram-cta {
   max-width: 700px;
-  margin: 0 404px;
+  margin: 0 718px;
   text-align: left;
 }
 
@@ -85,4 +85,43 @@
 
 .instagram-button:hover {
   background: #1f2270;
+}
+
+@media (max-width: 1920px) {
+  .instagram-cta {
+    max-width: 700px;
+    margin: 0 404px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  .instagram-section {
+    padding: 2rem 1rem;
+  }
+
+  .instagram-title {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .instagram-grid {
+    gap: 1rem;
+  }
+
+  .instagram-card {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .instagram-card img {
+    height: auto;
+  }
+
+  .instagram-cta {
+    max-width: none;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
