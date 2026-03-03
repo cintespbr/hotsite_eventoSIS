@@ -1,44 +1,99 @@
 import "./Hero.css";
 import heroImage from "../../../assets/section1.jpeg";
+import heroVideo from "../../../assets/section1.mp4";
 import section1Img from "../../../assets/section1.png";
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+
 export default function Hero() {
+  const calculateTimeLeft = () => {
+    const eventDate = new Date("2026-03-20T08:00:00-03:00");
+    const now = new Date();
+    const difference = eventDate - now;
+
+    if (difference <= 0) {
+      return { dias: 0, horas: 0, minutos: 0, segundos: 0 };
+    }
+
+    return {
+      dias: Math.floor(difference / (1000 * 60 * 60 * 24)),
+      horas: Math.floor((difference / (1000 * 60 * 60)) % 24),
+      minutos: Math.floor((difference / (1000 * 60)) % 60),
+      segundos: Math.floor((difference / 1000) % 60),
+    };
+  };
+
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, []);
+
   return (
     <main className="hero-page">
-      {/* HERO */}
-      <section className="hero-hero">
-        <div className="hero-noise" aria-hidden="true"></div>
+      <section
+        className="hero-hero"
+        style={{ backgroundImage: `url(${heroImage})` }}
+      >
+        <div className="hero-overlay"></div>
 
-        <div className="container h-100">
-          <div className="row h-100 align-items-center">
-            {/* TEXTO */}
-            <div className="col-lg-6 text-center text-lg-start hero-text">
-              <h1 className="hero-title">
-                Sisconec.TA 2026 – Tecnologia Assistiva com Impacto Social
-              </h1>
+        <div className="container hero-grid">
+          <div className="row align-items-center">
+            {/* COLUNA ESQUERDA */}
+            <div className="col-lg-6 hero-left">
+              <div className="glass-card main-card">
+                <h1>
+                  TECNOLOGIA ASSISTIVA <br />
+                  COM IMPACTO SOCIAL
+                </h1>
 
-              <p className="hero-description">
-                O Sisconec.TA 2026 é o encontro nacional da Rede SisAssistiva
-                dedicado à apresentação de soluções em Tecnologia Assistiva com
-                foco na entrega à sociedade. O evento reunirá estudantes,
-                pesquisadores, gestores públicos, empresas e sociedade civil
-                para conhecer tecnologias já prontas para uso, desenvolvidas
-                para ampliar acessibilidade e autonomia. A iniciativa reforça o
-                compromisso de transformar conhecimento e investimento em
-                impacto social concreto no Brasil.
-              </p>
-              <Link className="btn btn-primary btn-lg" to="/inscricoes">
-                Faça sua Inscrição
-              </Link>
+                <p>
+                  O Sisconec.TA 2026 é o encontro nacional da Rede SisAssistiva
+                  dedicado à apresentação de soluções em Tecnologia Assistiva
+                  com foco na entrega à sociedade.
+                </p>
+              </div>
+
+              <div className="glass-card countdown-card">
+                <span className="countdown-label">
+                  Anote na sua agenda, faltam apenas:
+                </span>
+
+                <div className="countdown-grid">
+                  <div>
+                    <strong>{timeLeft.dias}</strong>
+                    <span>dias</span>
+                  </div>
+                  <div>
+                    <strong>{timeLeft.horas}</strong>
+                    <span>horas</span>
+                  </div>
+                  <div>
+                    <strong>{timeLeft.minutos}</strong>
+                    <span>minutos</span>
+                  </div>
+                  <div>
+                    <strong>{timeLeft.segundos}</strong>
+                    <span>segundos</span>
+                  </div>
+                </div>
+              </div>
             </div>
 
-            {/* IMAGEM */}
-            <div className="col-lg-6 d-none d-lg-flex justify-content-center">
-              <div className="hero-visual">
-                <img
-                  src={heroImage}
-                  alt="Ilustração representando palestrantes e tecnologias assistivas"
+            {/* COLUNA DIREITA */}
+            <div className="col-lg-6 d-none d-lg-flex justify-content-center hero-right">
+              <div className="hero-image-frame">
+                <video
+                  src={heroVideo}
+                  alt="Tecnologia Assistiva"
                   className="hero-image"
+                  autoPlay
+                  loop
+                  muted
                 />
               </div>
             </div>
