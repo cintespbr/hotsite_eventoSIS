@@ -259,6 +259,13 @@
     padding: 30px 25px;
   }
 
+  .hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 21px 19px 0px 19px;
+  }
+
   .main-card h1 {
     font-size: 1.6rem;
   }
