@@ -232,7 +232,7 @@
   }
 
   .subscribe-form-wrapper {
-    margin: 18px 1rem;
+    margin: 18px 0rem;
   }
 
   .subscribe-iframe {
@@ -241,5 +241,10 @@
 
   .vlibras-column {
     display: none;
+  }
+
+  .hero-right {
+    position: relative;
+    padding: 4% 4% 4% 4%;
   }
 }

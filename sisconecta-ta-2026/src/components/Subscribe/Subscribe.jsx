@@ -50,8 +50,8 @@ export default function Subscribe() {
               <div className="subscribe-form-wrapper">
                 <div className="subscribe-form-toolbar">
                   <p className="sr-note">
-                    Se o VLibras não conseguir ler o formulário embutido, você
-                    pode:
+                    Se o VLibras não conseguir ler o formulário embutido ou
+                    occorrer algum erro, você pode:
                   </p>
 
                   <div className="sr-actions">
