@@ -85,15 +85,18 @@ export default function Hero() {
             </div>
 
             {/* COLUNA DIREITA */}
-            <div className="col-lg-6 d-none d-lg-flex justify-content-center hero-right">
+            <div className="col-12 col-lg-6 d-flex justify-content-center hero-right">
+              {" "}
               <div className="hero-image-frame">
                 <video
                   src={heroVideo}
-                  alt="Tecnologia Assistiva"
                   className="hero-image"
                   autoPlay
-                  loop
                   muted
+                  loop
+                  playsInline
+                  preload="metadata"
+                  poster={heroImage}
                 />
               </div>
             </div>
