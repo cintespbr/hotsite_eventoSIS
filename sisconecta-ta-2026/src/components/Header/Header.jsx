@@ -1,6 +1,7 @@
 import "./Header.css";
 import logoSis from "../../assets/logo-sis2.svg";
 import { Link } from "react-router-dom";
+import menuHamburger from "../../assets/menu-hamburguer.png";
 
 export default function Header() {
   return (
@@ -20,7 +21,11 @@ export default function Header() {
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
           >
-            <span className="navbar-toggler-icon"></span>
+            <img
+              className="navbar-toggler-icon"
+              src={menuHamburger}
+              alt="Toggler icon"
+            ></img>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">

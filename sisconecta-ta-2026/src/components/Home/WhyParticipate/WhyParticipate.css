@@ -14,7 +14,7 @@
 
 .why-subtitle {
   font-size: 1.1rem;
-  color: #2D94E0;
+  color: #2d94e0;
   font-style: italic;
   margin-bottom: 32px;
 }
@@ -65,4 +65,25 @@
   height: 320px;
   background: #e0e0e0;
   border-radius: 24px;
+}
+
+/* =========================
+   RESPONSIVO
+========================= */
+@media (max-width: 992px) {
+  .why-section {
+    background: #ffffff;
+    padding: 80px 21px;
+  }
+
+  .why-button {
+    background: #d9ecff;
+    color: #0b3a6f;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 20px;
+  }
 }

@@ -59,3 +59,21 @@
   max-height: 100%;
   object-fit: contain;
 }
+
+/* =========================
+   RESPONSIVO
+========================= */
+@media (max-width: 992px) {
+  .partners-title {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+
+  .partners-section {
+    background: #232399;
+    padding: 58px 24px;
+    text-align: center;
+  }
+}
