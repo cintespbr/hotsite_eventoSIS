@@ -40,7 +40,7 @@
 /* CARD ESCURO */
 
 .about-card.dark {
-  background: #F9820B;
+  background: #f9820b;
   color: #ffffff;
 }
 
@@ -63,4 +63,21 @@
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+/* =========================
+   RESPONSIVO
+========================= */
+@media (max-width: 992px) {
+  .about-card h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+  }
+
+  .about-card.light {
+    background: #ffffff;
+    color: #232399;
+    text-align: -webkit-center;
+  }
 }

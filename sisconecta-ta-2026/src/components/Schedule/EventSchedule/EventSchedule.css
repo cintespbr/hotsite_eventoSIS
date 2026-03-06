@@ -272,3 +272,32 @@
     transform: none !important;
   }
 }
+
+/*==========================
+   RESPONSIVO
+========================== */
+@media (max-width: 992px) {
+  .evento {
+    flex-direction: column;
+    gap: 8px;
+    margin: 20px 16px;
+  }
+
+  .hora {
+    font-size: 0.9rem;
+  }
+
+  .hora::before {
+    display: none;
+  }
+
+  .evento-card {
+    padding: 14px 16px;
+  }
+
+  .linha-do-tempo.is-open {
+    max-height: 100%;
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

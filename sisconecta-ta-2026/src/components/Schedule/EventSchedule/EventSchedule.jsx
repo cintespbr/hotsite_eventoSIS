@@ -28,6 +28,7 @@ Demonstração da proposta “Tiro com arco autônomo para Deficientes Visuais�
 Pronunciamento das autoridades
 Homenagem à equipe de Natação Paralímpica do PRAIA CLUBE (Alberto Martins da Costa)
 Homenagem à equipe de Halterofilismo Paralímpico da FUTEL/CDDU/PRAIA CLUBE (Weverton Santos)
+Homenagem ao Praia Clube pelo apoio ao esporte paralímpico regional com atuação expressiva em diversas modalidades, plano de ações relevantes, principalmente, na natação paralímpica com destaque nas últimas paralimpíadas (Carlos Augusto Ribeiro Ferreira Braga)
 Entrega do Termo de Adesão da Cidade de Uberlândia ao Novo Viver Sem Limites - Primeiro Município de Minas Gerais a formalizar adesão ao Novo Viver Sem Limites (Prefeito Paulo Sérgio e Representante do MDHC)
 Entrega CNPq / MCTI (Centro Brasileiro de Referência em Inovações Tecnológicas para Esportes Paralímpicos – CINTESP.Br/UFU)
       `,
@@ -55,22 +56,37 @@ Gravação será exibida na abertura do dia 21/3.
       `,
       },
       {
-        hora: "12h00",
+        hora: "11h00",
         titulo:
           "Apresentação de Produtos Assistivos Inovadores da Rede SisAssistiva (Finep 2022) – Pitch (1,5 min)",
         descricao: "",
       },
       {
-        hora: "14h00",
+        hora: "12h30",
         titulo:
           "Mostra Interativa - Exposição e experimentação de Produtos da Rede SiSAssistiva, Empresas e Associações",
         descricao: "Mostra e planejamentos no Hotsite do evento.",
       },
       {
-        hora: "14h00",
+        hora: "12h30",
         titulo:
           "Oficinas Interativas com Tecnologias Assistivas, Rede SisAssistiva, Empresas e Associações",
         descricao: "Oficinas e planejamentos no Hotsite do evento.",
+      },
+      {
+        hora: "14h00",
+        titulo:
+          "PAINEL 1 – Pesquisa e Inovação nas Empresas Brasileiras (Palco Principal – Arena Sabiazinho)",
+        descricao: `
+Mediador: Gustavo Amaral, Gerente Administrativo da AACD
+
+Painelistas:
+MARCONI ALBUQUERQUE - Coordenador de Instrumentos de Apoio à Inovação/MCTI (A Importância da Lei do Bem – Incentivos Fiscais)
+FABIANO ALVES – Secretário de Desenvolvimento Econômico e Inovação da Prefeitura de Uberlândia (Contratos Públicos para Inovação)
+ZAIMA MILAZZO – Vice-presidente da Algar Telecom (Tecnologia e Inovação)
+RICARDO GARCIA CAPPELLI – Presidente da Agência Brasileira de Desenvolvimento Industrial (ABDI)
+GUILHERME LIRA – Diretor da TecAssistiva e Presidente da Associação Brasileia de Tecnologia Assistiva.
+      `,
       },
       {
         hora: "14h00",
@@ -79,16 +95,9 @@ Gravação será exibida na abertura do dia 21/3.
         descricao: "Mesas para Rodas de Conversa.",
       },
       {
-        hora: "14h00",
-        titulo:
-          "Painel 1 – Pesquisa e Inovação nas Empresas Brasileiras (Palco Principal – Arena Sabiazinho)",
-        descricao: `
-Mediador: Gustavo Amaral – Gerente Administrativo da AACD
-Painelistas:
-MARCONI ALBUQUERQUE - Coordenador de Instrumentos de Apoio à Inovação/MCTI (A Importância da Lei do Bem – Incentivos Fiscais)
-REPRESENTANTE SECRETARIA DE INOVAÇÃO DA PREFEITURA DE UBERLÂNDIA (Contratos Públicos para Inovação)
-ZAIMA MILAZZO – Vice-presidente da Algar Telecom (Tecnologia e Inovação)
-      `,
+        hora: "15h00",
+        titulo: "Atendimento FINEP para coordenadores da rede SisAssistiva",
+        descricao: "",
       },
       {
         hora: "16h00",
@@ -96,13 +105,13 @@ ZAIMA MILAZZO – Vice-presidente da Algar Telecom (Tecnologia e Inovação)
           "PAINEL 2 – Dialogando sobre as oportunidades e os desafios da inclusão socioprodutiva de pessoas com deficiência e idosos nos 24 municípios da Microrregião do Vale do Paranaíba (AMVAP)",
         descricao: `
 Mediador: Paulo Sérgio Ferreira, Prefeito de Uberlândia/MG.
+
 Painelistas:
-Inácio Arruda, Secretário de Ciência e Tecnologia para o Desenvolvimento Social (SEDES/MCTI)
-Isadora Rodrigues Nascimento Santos, Secretária Nacional da Pessoa com Deficiência (SNDPC/MDHC)
-Fábio Augusto Lima de Araújo, Secretário Nacional de Paradesporto (Snpar/MEsporte)
-Aleandro Francisco da Silva (Candango) – Prefeito de Cachoeira Dourada/MG, Presidente da AMVAP
-Kassio Henrique Martins de Lima – Secretário de Educação de Estrela do Sul, Presidente do Conselho Intermunicipal de Educação, CIE/AMVAP
-Neívia Costa – Secretária Assistência Social de Monte Carmelo, Presidente do Conselho Intermunicipal de Assistência Social, CIAS/AMVAP
+INÁCIO ARRUDA, Secretário de Ciência e Tecnologia para o Desenvolvimento Social (SEDES/MCTI)
+ISADORA RODRIGUES NASCIMENTO SANTOS, Secretária Nacional da Pessoa com Deficiência (SNDPC/MDHC)
+FÁBIO AUGUSTO LIMA DE ARAÚJO, Secretário Nacional de Paradesporto (Snpar/MEsporte)
+RENATO CARVALHO FERNANDES – Prefeito de Araguari/MG, Presidente da AMVAP
+NEÍVIA COSTA – Secretária Assistência Social de Monte Carmelo, Presidente do Conselho Intermunicipal de Assistência Social, CIAS/AMVAP
       `,
       },
     ],
@@ -127,26 +136,31 @@ Lançamento do Site SisAssistiva
 Lançamento do Mapa SisAssistiva
 Termo de adesão do SisAssistiva (Finep 2022)
 Lançamento do Livro Digital SisAssistiva – SEDES/MCTI/SISLAB
-Lançamento do Livro Digital SisAssistiva – SEDES/MCTI/SISLAB
 Lançamento do POLO.TA e PRAÇA DA CIÊNCIA (Vídeo Gravado)
-Mesa de Conversa com a FINEP/SISLAB/MCTI
       `,
+      },
+      {
+        hora: "09h30",
+        titulo:
+          "Perspectivas Futuras e Integração da rede SisAssistiva (MCTI, FINEP, SiSLab, Cintesp.Br, rede SisAssistiva)",
+        descricao: "",
       },
       {
         hora: "10h30",
         titulo: "Workshop Políticas Públicas de apoio à Tecnologia Assistiva",
         descricao: `
-Demandas das Secretarias de Educação da AMVAP e Estruturação do Programa Intermunicipal de Educação Inclusiva para Pessoas com deficiência e idosos – ACT (AMVAP, SINTESP/UFU/MCTI, MEC, MDHC, MEsporte, MS, MDS)
+Demandas das Secretarias de Educação da AMVAP e Estruturação do Programa Intermunicipal de Educação Inclusiva para Pessoas com deficiência e idosos – ACT (AMVAP, CINTESP.Br/UFU, SISLAB, MCTI, MEC, MDHC, MEsporte, MS, MDS)
 
-Mediação: Cleudmar Araújo - Coordenador do SisLab/UFU
+Mediação: Ana Marta de Souza, Diretora da Faculdade de Engenharia Mecânica/UFU
 
 Expositores:
-Poliana - Secretaria executiva da AMVAP
-Alexandre Mapurunga - Diretor Políticas de Educação Especial na Perspectiva Inclusiva - MEC
+POLLIANA OLIVEIRA TANNUS BERNARDES – Secretária de Educação do Município de Prata, Presidente do Conselho Intermunicipal de Educação, CIE/AMVAP
+ALEXANDRE MAPURUNGA - Diretor Políticas de Educação Especial na Perspectiva Inclusiva - MEC
 RODRIGO ABREU DE FREITAS MACHADO - Coordenador-Geral de Planejamento e Monitoramento da Política Pública Paradesportiva - MEsp
-Milton Pereira Filho – CGTA/MCTI
-Polyana Penna – Editora Executiva do IBICT
-XXXXXXX - Auditor do Trabalho (MTE)
+MILTON PEREIRA FILHO – CGTA/MCTI
+POLYANA PENNA – Editora Executiva do IBICT
+JANINE CECÍLIA GONÇALVES PEIXOTO – Coordenadora da Divisão de Acessibilidade e Inclusão (DACIN/UFU)
+PAULO GONÇALVES VELOSO - Procurador do Trabalho Uberlândia – MPT
 
 Objetivos do workshop:
 Proposta-Programa: Calendário de atendimento/visita da Equipe CINTESP.Br aos 24 Munícipios para desenvolvimento de Projeto Piloto de gestão e integração de dados sobre PcD.
@@ -158,6 +172,11 @@ Estabelecimento de um programa de inclusão produtiva em parceria com o setor pr
         hora: "10h30",
         titulo:
           "Mostra Interativa - Exposição e experimentação de Produtos da Rede SisAssistiva, Empresas e Associações",
+        descricao: "",
+      },
+      {
+        hora: "10h30",
+        titulo: "Atendimento FINEP para coordenadores da rede SisAssistiva",
         descricao: "",
       },
       {
@@ -174,32 +193,32 @@ Estabelecimento de um programa de inclusão produtiva em parceria com o setor pr
       {
         hora: "14h00",
         titulo:
-          "Painel 2 – Regulamentação, certificação e promoção do emprego (Lei de Cotas) para PCD",
+          "PAINEL 3 – Regulamentação, certificação e promoção do emprego (Lei de Cotas) para PCD",
         descricao: `
-Mediador: Carla Patrícia Guimarães - Instituto Nacional de Tecnologia (INT/MCTI)
+Mediador: Carla Patrícia Guimarães, Instituto Nacional de Tecnologia (INT/MCTI)
 
 VIVIAN CARDOSO MORAIS DE OLIVEIRA - Gerente-Geral de Tecnologia de Produtos para a Saúde – ANVISA
 CARLOS AUGUSTO AZEVEDO – Assessor da Presidência do INMETRO
 IDARI ALVES DA SILVA – Diretor de Acessibilidade e Mobilidade Reduzida da Prefeitura de Uberlândia
-Representante da ABNT
-Empresa Convidada
+EDISON PASSAFARO – Gestor do Comitê de Acessibilidade da Associação Brasileira de Normas Técnicas
+LINDOMAR SOUSA – Diretor da Empresa Mover Cadeiras/Go
       `,
       },
       {
         hora: "16h00",
-        titulo: "Intervalo - Coffee break",
+        titulo: "Intervalo",
         descricao: "",
       },
       {
         hora: "16h30",
-        titulo: "Painel 3 – Acessibilidade e Empreendedorismo",
+        titulo:
+          "Painel 3 – Acessibilidade, Empreendedorismo, Empresas Competitivas",
         descricao: `
-Mediador: Sonia da Costa – SEDES/MCTI
+Mediador: Sonia da Costa, Diretora de Tecnologia Social, Economia Solidária e Tecnologia Assistiva (DEPTS/SEDES/MCTI)
 
 EDUARDO RAMOS – Analista SEBRAE (Empreendedorismo)
-REPRESENTANTE SECRETARIA DE INOVAÇÃO DA PREFEITURA DE UBERLÂNDIA (Acessibilidade)
-REPRESENTANTE EMBRAPII (Interação com as Empresas)
-ASSOCIAÇÃO CONVIDADA
+FABIANO ALVES – Secretário de Desenvolvimento Econômico e Inovação da Prefeitura de Uberlândia (Acessibilidade)
+GUILHERME COUTINHO CALHEIROS – Diretor de Planejamento da EMBRAPII (Interação com as Empresas)
       `,
       },
       {
