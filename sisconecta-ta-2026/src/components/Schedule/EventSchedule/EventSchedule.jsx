@@ -111,7 +111,7 @@ INÁCIO ARRUDA, Secretário de Ciência e Tecnologia para o Desenvolvimento Soci
 ISADORA RODRIGUES NASCIMENTO SANTOS, Secretária Nacional da Pessoa com Deficiência (SNDPC/MDHC)
 FÁBIO AUGUSTO LIMA DE ARAÚJO, Secretário Nacional de Paradesporto (Snpar/MEsporte)
 RENATO CARVALHO FERNANDES – Prefeito de Araguari/MG, Presidente da AMVAP
-NEÍVIA COSTA – Secretária Assistência Social de Monte Carmelo, Presidente do Conselho Intermunicipal de Assistência Social, CIAS/AMVAP
+Daisy Afonso - Diretora Regional da Secretaria de Estado de Desenvolvimento Social/MG, Presidente do Conselho Intermunicipal de Assistência Social, CIAS/AMVAP
       `,
       },
     ],
