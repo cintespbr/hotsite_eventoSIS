@@ -122,36 +122,25 @@ export default function Hero() {
       <section className="second-section">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-6">
+            <div className="col-lg-7">
               <h2 className="section-title">
                 Conectando Inovação, Tecnologia e Impacto Social
               </h2>
+
               <p className="section-text">
-                O <b>SIsLAB – Laboratório Integrador da Rede SisAssistiva</b>,
-                em articulação com o{" "}
-                <b>Ministério da Ciência, Tecnologia e Inovação (MCTI)</b>, por
-                meio da{" "}
-                <b>
-                  Secretaria de Ciência e Tecnologia para o Desenvolvimento
-                  Social – SEDES
-                </b>
-                , liderada pelo Secretário <b>Inácio Arruda</b>, convida a todos
-                para participar do{" "}
-                <b>
-                  Sisconec.TA 2026 – Evento Nacional de Inovação Tecnológica
-                  Assistiva
-                </b>
-                .
+                O Laboratório Integrador da Rede SisAssistiva <b>(SisLAB)</b>,
+                em articulação com o Ministério da Ciência, Tecnologia e
+                Inovação <b>(MCTI)</b>, por meio da Secretaria de Ciência e
+                Tecnologia para o Desenvolvimento Social <b>(SEDES)</b>,
+                liderada pelo Secretário <b>Inácio Arruda</b>, convida a todos
+                para participar do <b>Sisconec.TA 2026</b>.
               </p>
 
               <p className="section-text">
-                O evento tem como proposta central{" "}
-                <b>
-                  integrar esforços, alinhar visões e fortalecer a rede que
-                  sustenta a inovação em Tecnologias Assistivas
-                </b>
-                , conectando ciência, indústria, políticas públicas e usuários
-                finais em um mesmo ecossistema colaborativo.
+                O evento tem como proposta central integrar esforços, alinhar
+                visões e fortalecer a rede que sustenta a inovação em Tecnologia
+                Assistiva, conectando ciência, indústria, políticas públicas e
+                usuários finais em um mesmo ecossistema colaborativo.
               </p>
 
               <div className="d-flex gap-3 mt-4">
@@ -167,7 +156,7 @@ export default function Hero() {
               </div>
             </div>
 
-            <div className="col-lg-6 d-none d-lg-block">
+            <div className="col-lg-5 d-none d-lg-block">
               <div className="image-placeholder">
                 <img
                   src={section1Img}
