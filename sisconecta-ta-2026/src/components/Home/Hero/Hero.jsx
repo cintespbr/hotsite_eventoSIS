@@ -5,6 +5,20 @@ import section1Img from "../../../assets/section1.png";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 
+<style>
+  {`
+@keyframes piscandoRainbow {
+  0% { color: red; }
+  16% { color: orange; }
+  32% { color: yellow; }
+  48% { color: lime; }
+  64% { color: cyan; }
+  80% { color: blue; }
+  100% { color: magenta; }
+}
+`}
+</style>;
+
 export default function Hero() {
   const calculateTimeLeft = () => {
     const eventDate = new Date("2026-03-20T08:00:00-03:00");
@@ -113,20 +127,31 @@ export default function Hero() {
                 Conectando Inovação, Tecnologia e Impacto Social
               </h2>
               <p className="section-text">
-                Este evento nasce como um ponto de encontro estratégico para
-                quem desenvolve, pesquisa, regula, financia e utiliza
-                Tecnologias Assistivas no Brasil. Mais do que uma agenda de
-                palestras e exposições, ele foi concebido como um espaço vivo de
-                articulação, troca e construção de caminhos concretos para
-                transformar conhecimento técnico em soluções reais para a
-                sociedade.
+                O <b>SIsLAB – Laboratório Integrador da Rede SisAssistiva</b>,
+                em articulação com o{" "}
+                <b>Ministério da Ciência, Tecnologia e Inovação (MCTI)</b>, por
+                meio da{" "}
+                <b>
+                  Secretaria de Ciência e Tecnologia para o Desenvolvimento
+                  Social – SEDES
+                </b>
+                , liderada pelo Secretário <b>Inácio Arruda</b>, convida a todos
+                para participar do{" "}
+                <b>
+                  Sisconec.TA 2026 – Evento Nacional de Inovação Tecnológica
+                  Assistiva
+                </b>
+                .
               </p>
 
               <p className="section-text">
-                A proposta central é integrar esforços, alinhar visões e
-                fortalecer a rede que sustenta a inovação em Tecnologias
-                Assistivas, conectando ciência, indústria, políticas públicas e
-                usuários finais em um mesmo ecossistema colaborativo.
+                O evento tem como proposta central{" "}
+                <b>
+                  integrar esforços, alinhar visões e fortalecer a rede que
+                  sustenta a inovação em Tecnologias Assistivas
+                </b>
+                , conectando ciência, indústria, políticas públicas e usuários
+                finais em um mesmo ecossistema colaborativo.
               </p>
 
               <div className="d-flex gap-3 mt-4">
