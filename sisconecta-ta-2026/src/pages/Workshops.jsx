@@ -3,7 +3,6 @@ export default function WorkshopsPage() {
   return (
     <>
       <Workshops />
-      {/*<TechnicalGuides />*/}
     </>
   );
 }

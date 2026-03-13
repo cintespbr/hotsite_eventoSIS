@@ -21,7 +21,7 @@ export default function EventGuestsSection() {
       cargo:
         "Secretário de Ciência e Tecnologia para o Desenvolvimento Social – MCTI",
       image: inacio,
-      bio: "<strong>Inácio Arruda</strong> é secretário de Ciência e Tecnologia para o Desenvolvimento Social do Ministério da Ciência, Tecnologia e Inovação (MCTI). Servidor aposentado do Tribunal de Justiça do Ceará, possui formação técnica em Mecânica de Máquinas e Eletrotécnica pela Escola Técnica Federal do Ceará e também cursou Direito e Matemática pela Universidade Federal do Ceará. Foi deputado estadual, deputado federal por três mandatos e senador da República pelo Ceará.",
+      bio: "<strong>Inácio Arruda</strong>, é servidor aposentado do Tribunal de Justiça do Ceará, possui formação técnica em Mecânica de Máquinas e Eletrotécnica pela Escola Técnica Federal do Ceará e também cursou Direito e Matemática pela Universidade Federal do Ceará. Foi deputado estadual, deputado federal por três mandatos e senador da República pelo Ceará.",
     },
     {
       name: "Paulo Sérgio",
@@ -31,9 +31,9 @@ export default function EventGuestsSection() {
     },
     {
       name: "Carlos Henrique de Carvalho",
-      cargo: "Reitor da Universidade Federal de Uberlândia (UFU)",
+      cargo: "Reitor da Universidade Federal de Uberlândia - UFU",
       image: reitor,
-      bio: "<strong>Carlos Henrique de Carvalho</strong> é reitor da Universidade Federal de Uberlândia (UFU) e professor titular da Faculdade de Educação. Possui graduação em História pela UFU, doutorado em História Econômica pela Universidade de São Paulo e pós-doutorado em História da Educação pela Universidade de Lisboa. Atua há mais de três décadas na UFU e foi pró-reitor de Pesquisa e Pós-Graduação entre 2017 e 2024.",
+      bio: "<strong>Carlos Henrique de Carvalho</strong> é professor titular da Faculdade de Educação. Possui graduação em História pela UFU, doutorado em História Econômica pela Universidade de São Paulo e pós-doutorado em História da Educação pela Universidade de Lisboa. Atua há mais de três décadas na UFU e foi pró-reitor de Pesquisa e Pós-Graduação entre 2017 e 2024.",
     },
   ];
 
