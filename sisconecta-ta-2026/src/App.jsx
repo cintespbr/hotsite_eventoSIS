@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Programacao from "./pages/Schedule";
 import Subscribe from "./pages/Subscribe";
 import { VLibras } from "./components/VLibras";
+import Workshops from "./pages/Workshops";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/programacao" element={<Programacao />} />
           <Route path="/inscricoes" element={<Subscribe />} />
+          <Route path="/oficinas" element={<Workshops />} />
         </Route>
       </Routes>
     </BrowserRouter>

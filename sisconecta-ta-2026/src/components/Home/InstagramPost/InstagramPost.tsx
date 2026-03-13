@@ -32,19 +32,19 @@ export default function InstagramPost() {
       <div className="instagram-grid">
         <blockquote
           className="instagram-media"
-          data-instgrm-permalink="https://www.instagram.com/p/DVUWxTSAdnt/"
+          data-instgrm-permalink="https://www.instagram.com/p/DVb6HiwAe9g/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
           data-instgrm-version="14"
         />
 
         <blockquote
           className="instagram-media"
-          data-instgrm-permalink="https://www.instagram.com/p/DVPQb26AcBN/"
+          data-instgrm-permalink="https://www.instagram.com/p/DVhL3MbARO1/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
           data-instgrm-version="14"
         />
 
         <blockquote
           className="instagram-media"
-          data-instgrm-permalink="https://www.instagram.com/p/DVMi7L3gXjK/"
+          data-instgrm-permalink="https://www.instagram.com/p/DVwlkuLATAz/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
           data-instgrm-version="14"
         />
       </div>

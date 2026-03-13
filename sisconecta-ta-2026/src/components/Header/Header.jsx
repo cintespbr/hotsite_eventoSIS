@@ -49,6 +49,11 @@ export default function Header() {
                   Inscrições
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/oficinas">
+                  Oficinas
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

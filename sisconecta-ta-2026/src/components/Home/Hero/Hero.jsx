@@ -128,19 +128,20 @@ export default function Hero() {
               </h2>
 
               <p className="section-text">
-                O Laboratório Integrador da Rede SisAssistiva <b>(SisLAB)</b>,
-                em articulação com o Ministério da Ciência, Tecnologia e
-                Inovação <b>(MCTI)</b>, por meio da Secretaria de Ciência e
-                Tecnologia para o Desenvolvimento Social <b>(SEDES)</b>,
-                liderada pelo Secretário <b>Inácio Arruda</b>, convida a todos
-                para participar do <b>Sisconec.TA 2026</b>.
+                O Reitor Carlos Henrique de Carvalho, o Prefeito de Uberlândia
+                Paulo Sérgio Ferreira, o Secretário de Ciência e Tecnologia para
+                o Desenvolvimento Social (SEDES), Inácio Arruda e a Ministra de
+                Ciência Tecnologia e Inovação (MCTI) Sra. Ministra Luciana
+                Santos convidam para o Sisconec.TA 2026.
               </p>
 
               <p className="section-text">
                 O evento tem como proposta central integrar esforços, alinhar
-                visões e fortalecer a rede que sustenta a inovação em Tecnologia
-                Assistiva, conectando ciência, indústria, políticas públicas e
-                usuários finais em um mesmo ecossistema colaborativo.
+                visões e fortalecer a rede que sustenta a Tecnologia Assistiva,
+                inovações voltadas para pessoas com deficiência e mobilidade
+                reduzida. Será o primeiro e maior evento de Minas Gerais para
+                conectar ciência, indústria, políticas públicas e usuários
+                finais em um mesmo ecossistema colaborativo.
               </p>
 
               <div className="d-flex gap-3 mt-4">

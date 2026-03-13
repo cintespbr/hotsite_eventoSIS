@@ -18,7 +18,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("../../../assets/event-hero.png");
+  background-image: url("../../../assets/back-program.png");
   background-size: cover;
   background-position: center;
   filter: blur(6px);
@@ -31,12 +31,12 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(
+  /*background: linear-gradient(
     135deg,
     rgba(8, 63, 122, 0.85) 0%,
     rgba(11, 79, 138, 0.85) 50%,
     rgba(10, 60, 110, 0.85) 100%
-  );
+  );*/
   z-index: 1;
 }
 
