@@ -1,15 +1,9 @@
 .footer {
   position: relative;
-
-  /* imagem ocupa 100% do fundo */
   background-size: cover;
-  background-position: center top;
   background-repeat: no-repeat;
-
-  /* altura fluida */
-  min-height: 420px;
-
-  padding: 80px 0 60px;
+  background-position: center -330px;
+  padding: 60px 0;
 }
 /* overlay para contraste */
 .footer-overlay {
@@ -26,7 +20,7 @@
   flex-direction: column;
   align-items: center; /* eixo horizontal */
   text-align: center; /* texto */
-  gap: 40px;
+  gap: 0px;
 }
 
 /* BRAND */
@@ -43,8 +37,8 @@
 }
 
 .footer-brand p {
-  font-size: 0.9rem;
-  color: #4b5563;
+  font-size: 1.3rem;
+  color: #ffffff;
   max-width: 420px;
 }
 
@@ -54,6 +48,8 @@
   display: flex;
   gap: 48px;
   justify-content: center;
+  color: #ffffff;
+  font-weight: 500;
 }
 
 .footer-links ul {

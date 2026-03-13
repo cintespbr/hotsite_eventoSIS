@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./EventSchedule.css";
 import eventImage from "../../../assets/event-hero.png";
+import EventGuestsSection from "./EventGuestsSection";
 
 const programacao = [
   {
@@ -110,8 +111,7 @@ Painelistas:
 INÁCIO ARRUDA, Secretário de Ciência e Tecnologia para o Desenvolvimento Social (SEDES/MCTI)
 ISADORA RODRIGUES NASCIMENTO SANTOS, Secretária Nacional da Pessoa com Deficiência (SNDPC/MDHC)
 FÁBIO AUGUSTO LIMA DE ARAÚJO, Secretário Nacional de Paradesporto (Snpar/MEsporte)
-RENATO CARVALHO FERNANDES – Prefeito de Araguari/MG, Presidente da AMVAP
-Daisy Afonso - Diretora Regional da Secretaria de Estado de Desenvolvimento Social/MG, Presidente do Conselho Intermunicipal de Assistência Social, CIAS/AMVAP
+RENATO CARVALHO FERNANDES – Prefeito de Araguari/MG, Presidente da AMVAP, Presidente do Conselho Intermunicipal de Assistência Social, CIAS/AMVAP.
       `,
       },
     ],
@@ -242,28 +242,35 @@ export default function Programacao() {
     <main className="event-page">
       {/* hero */}
       <section className="event-hero">
+        {/* overlay */}
+        <div className="event-overlay"></div>
+
+        {/* noise */}
         <div className="event-noise" aria-hidden="true"></div>
 
-        <div className="container h-100">
-          <div className="row h-100 align-items-center">
+        <div className="container event-grid">
+          <div className="row align-items-center">
             {/* TEXTO */}
-            <div className="col-lg-6 text-center text-lg-start event-text">
-              <h1 className="event-title">
-                Programação Oficial do Sisconec.TA 2026
-              </h1>
+            <div className="col-lg-6 event-left">
+              <div className="glass-card event-card">
+                <h1 className="event-title">
+                  Programação Oficial do Sisconec.TA 2026
+                </h1>
 
-              <p className="event-description">
-                Dois dias de conteúdo estratégico, debates qualificados e
-                conexões que impulsionam a inovação em Tecnologias Assistivas no
-                Brasil. A programação reúne pesquisadores, gestores públicos,
-                indústria e representantes da sociedade civil em um ambiente
-                pensado para gerar diálogo, colaboração e impacto real.
-              </p>
+                <p className="event-description">
+                  Dois dias de conteúdo estratégico, debates qualificados e
+                  conexões que impulsionam a inovação em Tecnologias Assistivas
+                  no Brasil. A programação reúne pesquisadores, gestores
+                  públicos, indústria e representantes da sociedade civil em um
+                  ambiente pensado para gerar diálogo, colaboração e impacto
+                  real.
+                </p>
+              </div>
             </div>
 
             {/* IMAGEM */}
-            <div className="col-lg-6 d-none d-lg-flex justify-content-center">
-              <div className="event-visual">
+            <div className="col-lg-6 d-none d-lg-flex justify-content-center event-right">
+              <div className="glass-card event-visual">
                 <img
                   src={eventImage}
                   alt="Ilustração representando palestrantes e tecnologias assistivas"
@@ -274,7 +281,9 @@ export default function Programacao() {
           </div>
         </div>
       </section>
-
+      <section>
+        <EventGuestsSection />
+      </section>
       <section className="programacao-page">
         <div className="container">
           <h1 className="programacao-title">Programação do Evento</h1>

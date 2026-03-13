@@ -6,26 +6,16 @@ import futel from "../../../assets/partners/futel.png";
 import ufu from "../../../assets/partners/ufu.png";
 import finep from "../../../assets/partners/finep.png";
 import viver from "../../../assets/partners/viver.png";
-import gov from "../../../assets/partners/gov.png";
+import mcti from "../../../assets/partners/gov.png";
 import granExecutive from "../../../assets/partners/Logotipo-Grn-Dourado.jpg";
 import ExecutiveInn from "../../../assets/partners/ExecutiveInn.png";
+import logoAlgar from "../../../assets/partners/logo-algar.png";
+import logoCNPQ from "../../../assets/partners/logo-cnpq.png";
+import logompt from "../../../assets/partners/logo-mpt.png";
+import logoCompod from "../../../assets/partners/logo-compod.jpg";
 
 const partners = [
-  {
-    name: "CINTESP.Br",
-    logo: cintesp,
-    color: "#8d44ad",
-  },
-  {
-    name: "SisLab",
-    logo: sislab,
-    color: "#f39d12",
-  },
-  {
-    name: "SisAssistiva",
-    logo: sisassistiva,
-    color: "#9c59b6",
-  },
+  { name: "MCTI", logo: mcti, color: "#9c59b6" },
   {
     name: "FUTEL",
     logo: futel,
@@ -34,11 +24,49 @@ const partners = [
   { name: "UFU", logo: ufu, color: "#f39d12" },
   { name: "Finep", logo: finep, color: "#2ecc70" },
   {
+    name: "CNPQ",
+    logo: logoCNPQ,
+    color: "#f39d12",
+  },
+
+  {
+    name: "CINTESP.Br",
+    logo: cintesp,
+    color: "#8d44ad",
+  },
+  {
+    name: "Compod",
+    logo: logoCompod,
+    color: "#2ecc70",
+  },
+
+  {
     name: "Viver sem Limite",
     logo: viver,
     color: "#f39d12",
   },
-  { name: "gov", logo: gov, color: "#9c59b6" },
+  {
+    name: "SisAssistiva",
+    logo: sisassistiva,
+    color: "#9c59b6",
+  },
+  {
+    name: "SisLab",
+    logo: sislab,
+    color: "#f39d12",
+  },
+
+  {
+    name: "Algar",
+    logo: logoAlgar,
+    color: "#2ecc70",
+  },
+  {
+    name: "MPT",
+    logo: logompt,
+    color: "#f39d12",
+  },
+
   {
     name: "Gran Executive",
     logo: granExecutive,

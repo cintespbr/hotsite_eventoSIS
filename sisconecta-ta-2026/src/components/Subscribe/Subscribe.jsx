@@ -41,8 +41,6 @@ export default function Subscribe() {
           </div>
         </div>
       </section>
-
-      {/* FORMULÁRIO (permanece igual ao seu) */}
       <section className="subscribe-form-section">
         <div className="container-fluid h-100">
           <div className="row h-100 justify-content-center">
@@ -51,7 +49,7 @@ export default function Subscribe() {
                 <div className="subscribe-form-toolbar">
                   <p className="sr-note">
                     Se o VLibras não conseguir ler o formulário embutido ou
-                    occorrer algum erro, você pode:
+                    ocorrer algum erro, você pode:
                   </p>
 
                   <div className="sr-actions">
