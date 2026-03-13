@@ -13,6 +13,7 @@ import logoAlgar from "../../../assets/partners/logo-algar.png";
 import logoCNPQ from "../../../assets/partners/logo-cnpq.png";
 import logompt from "../../../assets/partners/logo-mpt.png";
 import logoCompod from "../../../assets/partners/logo-compod.jpg";
+import logoFau from "../../../assets/partners/logo-fau.jpg";
 
 const partners = [
   { name: "MCTI", logo: mcti, color: "#9c59b6" },
@@ -32,6 +33,11 @@ const partners = [
   {
     name: "CINTESP.Br",
     logo: cintesp,
+    color: "#8d44ad",
+  },
+  {
+    name: "FAU",
+    logo: logoFau,
     color: "#8d44ad",
   },
   {
