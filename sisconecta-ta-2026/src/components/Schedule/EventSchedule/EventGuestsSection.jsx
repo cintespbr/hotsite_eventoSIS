@@ -10,12 +10,12 @@ export default function EventGuestsSection() {
   const [selectedGuest, setSelectedGuest] = useState(null);
 
   const guests = [
-    {
+   /* {
       name: "Luciana Santos",
       cargo: "Ministra da Ciência, Tecnologia e Inovação do Brasil",
       image: luciana,
       bio: "<strong>Luciana Barbosa de Oliveira Santos</strong> é engenheira eletricista formada pela UFPE e atual Ministra da Ciência, Tecnologia e Inovação do Brasil, cargo que assumiu em 2022, tornando-se a primeira mulher a ocupá-lo. Iniciou sua trajetória no movimento estudantil e construiu carreira política como deputada estadual e federal, prefeita de Olinda por dois mandatos, secretária estadual e vice-governadora de Pernambuco, destacando-se pela atuação em ciência, tecnologia, inovação e políticas públicas.",
-    },
+    },*/
     {
       name: "Inácio Arruda",
       cargo:

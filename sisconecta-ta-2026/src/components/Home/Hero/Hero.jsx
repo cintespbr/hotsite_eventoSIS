@@ -128,11 +128,10 @@ export default function Hero() {
               </h2>
 
               <p className="section-text">
-                O Reitor Carlos Henrique de Carvalho, o Prefeito de Uberlândia
-                Paulo Sérgio Ferreira, o Secretário de Ciência e Tecnologia para
-                o Desenvolvimento Social (SEDES), Inácio Arruda e a Ministra de
-                Ciência Tecnologia e Inovação (MCTI) Sra. Ministra Luciana
-                Santos convidam para o Sisconec.TA 2026.
+                O Reitor <b>Carlos Henrique de Carvalho</b>, o Prefeito de Uberlândia
+                <b>Paulo Sérgio Ferreira</b>, o Secretário de Ciência e Tecnologia para
+                o Desenvolvimento Social (SEDES), <b>Inácio Arruda</b> e a Ministra de
+                Ciência Tecnologia e Inovação (MCTI) <b>Sra. Ministra Luciana Santos</b> convidam para o Sisconec.TA 2026.
               </p>
 
               <p className="section-text">
