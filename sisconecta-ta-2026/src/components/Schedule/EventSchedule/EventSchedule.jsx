@@ -13,106 +13,127 @@ const programacao = [
     eventos: [
       {
         hora: "08h00",
-        titulo: "Credenciamento e recepção (QR Code Inscrição)",
+        titulo: "Credenciamento e recepção.",
         descricao: "",
       },
       {
         hora: "09h00",
-        titulo:
-          "Abertura Oficial na Arena Sabiazinho - Apresentações e Entregas",
+        titulo: "Abertura Oficial – Cerimonial (Arena Sabiazinho)",
         descricao: `
-Composição da mesa de autoridades
-Abertura e Hino Nacional
-Apresentação cultural
-Demonstração da modalidade de halterofilismo Paralímpico: Treinador Weverton Santos; medalhista de ouro até 86 kg - Paris/2024 (Tayana Medeiros); medalhista bronze até 41 kg - Paris/2024 (Lara Lima)
-Demonstração da proposta “Tiro com arco autônomo para Deficientes Visuais”: Alcedo Medeiros (Arqueiro de tiro com arco)
-Pronunciamento das autoridades
-Homenagem à equipe de Natação Paralímpica do PRAIA CLUBE (Alberto Martins da Costa)
-Homenagem à equipe de Halterofilismo Paralímpico da FUTEL/CDDU/PRAIA CLUBE (Weverton Santos)
-Homenagem ao Praia Clube pelo apoio ao esporte paralímpico regional com atuação expressiva em diversas modalidades, plano de ações relevantes, principalmente, na natação paralímpica com destaque nas últimas paralimpíadas (Carlos Augusto Ribeiro Ferreira Braga)
-Entrega do Termo de Adesão da Cidade de Uberlândia ao Novo Viver Sem Limites - Primeiro Município de Minas Gerais a formalizar adesão ao Novo Viver Sem Limites (Prefeito Paulo Sérgio e Representante do MDHC)
-Entrega CNPq / MCTI (Centro Brasileiro de Referência em Inovações Tecnológicas para Esportes Paralímpicos – CINTESP.Br/UFU)
-      `,
+         • Apresentação cultural – Mestre Fabinho
+         • Demonstração de halterofilismo paralímpico
+         • Treinador: Weverton Santos
+         • Tayana Medeiros – Ouro Paris 2024 (até 86kg)
+         • Lara Lima – Bronze Paris 2024 (até 41kg)
+         • Inovação no paradesporto
+         • Tiro com arco autônomo para deficientes visuais
+         • Alcedo Medeiros (Arqueiro)
+         • Composição da mesa de autoridades
+         • Hino Nacional
+         • Pronunciamento das autoridades
+         • Celebração do Termo de Adesão ao programa Novo Viver Sem Limites
+         • Paulo Sérgio (Prefeito de Uberlândia)
+         • Isadora Nascimento (Secretária Nacional PcD – MDHC)
+         • Entrega CNPq/MCTI – CINTESP.Br/UFU
+         • Homenagem ao paradesporto de Uberlândia
+         • Futel, Aparu, Cddu, Adevitrim, Adeviudi, Compod, Asul, Sesi e Praia Clube
+        `,
       },
       {
         hora: "11h00",
         titulo:
-          "Lançamento de Pedra Fundamental “PRAÇA DA CIÊNCIA SOCIOEDUCATIVA PARQUE DO SABIÁ”",
+          "Lançamento da Pedra Fundamental – Praça da Ciência Socioeducativa",
         descricao: `
-Um projeto do CINTESP.Br/UFU, com apoio da FUTEL, SEDES/MCTI e FINEP.
-Somente Autoridades Credenciadas.
-Local: Mundo da Criança, Parque do Sabiá.
-Gravação será exibida na abertura do dia 21/3.
-      `,
+Projeto do CINTESP.Br/UFU com apoio da:
+• FUTEL / Prefeitura de Uberlândia
+• SEDES/MCTI
+• FINEP
+
+Local: Mundo da Criança – Parque do Sabiá
+Somente autoridades credenciadas
+Gravação exibida na abertura do dia 21/03
+        `,
       },
       {
-        hora: "13h00",
+        hora: "12h30",
         titulo:
-          "Lançamento da Pedra Fundamental “POLO.TA – POLO DE INOVAÇÃO E MANUFATURA AVANÇADA DE PRODUTOS ASSISTIVOS”",
+          "Lançamento da Pedra Fundamental – POLO.TA (Polo Nacional de Inovação)",
         descricao: `
-Um projeto do CINTESP.Br/UFU, com apoio da SEDES/MCTI, FINEP, PREFEITURA UBERLÂNDIA.
-Somente Autoridades Credenciadas.
-Local: Campus Glória / UFU.
-Gravação será exibida na abertura do dia 21/3.
-      `,
+Projeto do CINTESP.Br/UFU com apoio da:
+• SEDES/MCTI
+• FINEP
+• Prefeitura de Uberlândia
+
+Local: Campus Glória – UFU
+Somente autoridades credenciadas
+Gravação exibida na abertura do dia 21/03
+        `,
       },
       {
         hora: "11h00",
-        titulo:
-          "Apresentação de Produtos Assistivos Inovadores da Rede SisAssistiva (Finep 2022) – Pitch (1,5 min)",
+        titulo: "Pitch – Produtos Assistivos da Rede SisAssistiva",
         descricao: "",
       },
       {
         hora: "12h30",
-        titulo:
-          "Mostra Interativa - Exposição e experimentação de Produtos da Rede SiSAssistiva, Empresas e Associações",
-        descricao: "Mostra e planejamentos no Hotsite do evento.",
+        titulo: "Mostra Interativa de Tecnologias Assistivas",
+        descricao: `
+Exposição e experimentação de produtos da Rede SisAssistiva.
+        `,
       },
       {
         hora: "12h30",
-        titulo:
-          "Oficinas Interativas com Tecnologias Assistivas, Rede SisAssistiva, Empresas e Associações",
-        descricao: "Oficinas e planejamentos no Hotsite do evento.",
+        titulo: "Oficinas Interativas de Tecnologias Assistivas",
+        descricao: `
+Atividades práticas com tecnologias assistivas em parceria com empresas.
+        `,
+      },
+      {
+        hora: "12h30",
+        titulo: "Almoço Livre – Praça de Alimentação da Arena",
+        descricao: "Almoço não subsidiado.",
       },
       {
         hora: "14h00",
-        titulo:
-          "PAINEL 1 – Pesquisa e Inovação nas Empresas Brasileiras (Palco Principal – Arena Sabiazinho)",
+        titulo: "PAINEL 1 – Pesquisa e Inovação nas Empresas Brasileiras",
         descricao: `
-Mediador: Gustavo Amaral, Gerente Administrativo da AACD
+Mediador:
+• Ferdinando Kun – Líder de Comunidade
 
 Painelistas:
-MARCONI ALBUQUERQUE - Coordenador de Instrumentos de Apoio à Inovação/MCTI (A Importância da Lei do Bem – Incentivos Fiscais)
-FABIANO ALVES – Secretário de Desenvolvimento Econômico e Inovação da Prefeitura de Uberlândia (Contratos Públicos para Inovação)
-ZAIMA MILAZZO – Vice-presidente da Algar Telecom (Tecnologia e Inovação)
-RICARDO GARCIA CAPPELLI – Presidente da Agência Brasileira de Desenvolvimento Industrial (ABDI)
-GUILHERME LIRA – Diretor da TecAssistiva e Presidente da Associação Brasileia de Tecnologia Assistiva.
-      `,
-      },
-      {
-        hora: "14h00",
-        titulo:
-          "Interação com empresas, startups, empreendedores e setores do governo – LDB e outros setores",
-        descricao: "Mesas para Rodas de Conversa.",
-      },
-      {
-        hora: "15h00",
-        titulo: "Atendimento FINEP para coordenadores da rede SisAssistiva",
-        descricao: "",
+• Fabiano Alves – Prefeitura de Uberlândia
+• Zaima Milazzo – Algar Telecom
+• Ricardo Cappelli – ABDI
+• Daniel Almeida Filho – SETEC/MCTI
+• Wadson Ribeiro – FINEP
+• Guilherme Lira – TecAssistiva
+        `,
       },
       {
         hora: "16h00",
-        titulo:
-          "PAINEL 2 – Dialogando sobre as oportunidades e os desafios da inclusão socioprodutiva de pessoas com deficiência e idosos nos 24 municípios da Microrregião do Vale do Paranaíba (AMVAP)",
+        titulo: "PAINEL 2 – Inclusão socioprodutiva regional",
         descricao: `
-Mediador: Paulo Sérgio Ferreira, Prefeito de Uberlândia/MG.
+Mediadora:
+• Tania Maria de Souza Toledo – Secretaria de Educação
 
 Painelistas:
-INÁCIO ARRUDA, Secretário de Ciência e Tecnologia para o Desenvolvimento Social (SEDES/MCTI)
-ISADORA RODRIGUES NASCIMENTO SANTOS, Secretária Nacional da Pessoa com Deficiência (SNDPC/MDHC)
-FÁBIO AUGUSTO LIMA DE ARAÚJO, Secretário Nacional de Paradesporto (Snpar/MEsporte)
-RENATO CARVALHO FERNANDES – Prefeito de Araguari/MG, Presidente da AMVAP, Presidente do Conselho Intermunicipal de Assistência Social, CIAS/AMVAP.
-      `,
+• Inácio Arruda – SEDES/MCTI
+• Isadora Nascimento – MDHC
+• Fábio Araújo – Secretaria de Paradesporto
+• Renato Carvalho Fernandes – Prefeito de Araguari
+• Marcel Vieira Rodrigues – Prefeito do Prata
+        `,
+      },
+      {
+        hora: "14h00",
+        titulo: "Rodas de Conversa com empresas e startups",
+        descricao:
+          "Interação entre empresas, empreendedores e setores do governo.",
+      },
+      {
+        hora: "15h00",
+        titulo: "Atendimento FINEP – Coordenadores da Rede SisAssistiva",
+        descricao: "Local: Sala Cintesp.Br",
       },
     ],
   },
@@ -124,85 +145,72 @@ RENATO CARVALHO FERNANDES – Prefeito de Araguari/MG, Presidente da AMVAP, Pres
     eventos: [
       {
         hora: "08h30",
-        titulo: "Recepção e Abertura do dia",
+        titulo: "Recepção",
         descricao: "",
       },
       {
         hora: "09h00",
-        titulo: "Abertura - Apresentações e Entregas",
+        titulo: "Abertura do Dia – Cerimonial",
         descricao: `
-Composição da mesa (FINEP, SEDES/MCTI, UFU, CINTESP.Br, SISLAB)
-Lançamento do Site SisAssistiva
-Lançamento do Mapa SisAssistiva
-Termo de adesão do SisAssistiva (Finep 2022)
-Lançamento do Livro Digital SisAssistiva – SEDES/MCTI/SISLAB
-Lançamento do POLO.TA e PRAÇA DA CIÊNCIA (Vídeo Gravado)
-      `,
-      },
-      {
-        hora: "09h30",
-        titulo:
-          "Perspectivas Futuras e Integração da rede SisAssistiva (MCTI, FINEP, SiSLab, Cintesp.Br, rede SisAssistiva)",
-        descricao: "",
+• Vídeo institucional – POLO.TA e Praça da Ciência
+• Composição da mesa (FINEP, SEDES/MCTI, UFU, SISLAB)
+• Lançamento do site SisAssistiva
+• Lançamento do Mapa SisAssistiva
+• Termo de adesão da Rede SisAssistiva
+• Lançamento do Livro Digital SisAssistiva
+• Discussões estratégicas da rede
+        `,
       },
       {
         hora: "10h30",
-        titulo: "Workshop Políticas Públicas de apoio à Tecnologia Assistiva",
+        titulo: "PAINEL 3 – Políticas Públicas para Tecnologia Assistiva",
         descricao: `
-Demandas das Secretarias de Educação da AMVAP e Estruturação do Programa Intermunicipal de Educação Inclusiva para Pessoas com deficiência e idosos – ACT (AMVAP, CINTESP.Br/UFU, SISLAB, MCTI, MEC, MDHC, MEsporte, MS, MDS)
-
-Mediação: Ana Marta de Souza, Diretora da Faculdade de Engenharia Mecânica/UFU
+Mediadora:
+• Ana Marta de Souza – Diretora FEMEC/UFU
 
 Expositores:
-POLLIANA OLIVEIRA TANNUS BERNARDES – Secretária de Educação do Município de Prata, Presidente do Conselho Intermunicipal de Educação, CIE/AMVAP
-ALEXANDRE MAPURUNGA - Diretor Políticas de Educação Especial na Perspectiva Inclusiva - MEC
-RODRIGO ABREU DE FREITAS MACHADO - Coordenador-Geral de Planejamento e Monitoramento da Política Pública Paradesportiva - MEsp
-MILTON PEREIRA FILHO – CGTA/MCTI
-POLYANA PENNA – Editora Executiva do IBICT
-JANINE CECÍLIA GONÇALVES PEIXOTO – Coordenadora da Divisão de Acessibilidade e Inclusão (DACIN/UFU)
-PAULO GONÇALVES VELOSO - Procurador do Trabalho Uberlândia – MPT
-
-Objetivos do workshop:
-Proposta-Programa: Calendário de atendimento/visita da Equipe CINTESP.Br aos 24 Munícipios para desenvolvimento de Projeto Piloto de gestão e integração de dados sobre PcD.
-Curso de especialização em TA para o corpo docente e técnico da educação especial/ educação inclusiva e educação física, aberto a comunidade em geral.
-Estabelecimento de um programa de inclusão produtiva em parceria com o setor produtivo da região.
-      `,
+• Polliana Tannus Bernardes – Sec. Educação Prata
+• Rodrigo Abreu Machado – Ministério do Esporte
+• Milton Pereira Filho – MCTI
+• Polyana Penna – IBICT
+• Janine Peixoto – UFU
+• Paulo Gonçalves Veloso – MPT
+        `,
       },
       {
         hora: "10h30",
-        titulo:
-          "Mostra Interativa - Exposição e experimentação de Produtos da Rede SisAssistiva, Empresas e Associações",
-        descricao: "",
+        titulo: "Mostra Interativa – Rede SisAssistiva",
+        descricao: "Exposição e experimentação de soluções assistivas.",
       },
       {
         hora: "10h30",
-        titulo: "Atendimento FINEP para coordenadores da rede SisAssistiva",
+        titulo: "Atendimento FINEP – Rede SisAssistiva",
         descricao: "",
       },
       {
         hora: "12h00",
-        titulo: "Almoço LIVRE",
-        descricao: "",
+        titulo: "Almoço Livre – Praça de Alimentação",
+        descricao: "Almoço não subsidiado.",
       },
       {
         hora: "13h30",
-        titulo:
-          "Oficinas Interativas com Tecnologias Assistivas, Empresas e Associações",
+        titulo: "Oficinas Interativas de Tecnologias Assistivas",
         descricao: "",
       },
       {
         hora: "14h00",
-        titulo:
-          "PAINEL 3 – Regulamentação, certificação e promoção do emprego (Lei de Cotas) para PCD",
+        titulo: "PAINEL 4 – Regulamentação e Emprego PcD",
         descricao: `
-Mediador: Carla Patrícia Guimarães, Instituto Nacional de Tecnologia (INT/MCTI)
+Mediadora:
+• Carla Patrícia Guimarães – INT
 
-VIVIAN CARDOSO MORAIS DE OLIVEIRA - Gerente-Geral de Tecnologia de Produtos para a Saúde – ANVISA
-CARLOS AUGUSTO AZEVEDO – Assessor da Presidência do INMETRO
-IDARI ALVES DA SILVA – Diretor de Acessibilidade e Mobilidade Reduzida da Prefeitura de Uberlândia
-EDISON PASSAFARO – Gestor do Comitê de Acessibilidade da Associação Brasileira de Normas Técnicas
-LINDOMAR SOUSA – Diretor da Empresa Mover Cadeiras/Go
-      `,
+Painelistas:
+• Vivian Oliveira – ANVISA
+• Carlos Azevedo – INMETRO
+• Idari Alves – Prefeitura de Uberlândia
+• Edison Passafaro – ABNT
+• Lindomar Alves – Empresa Mover
+        `,
       },
       {
         hora: "16h00",
@@ -211,25 +219,27 @@ LINDOMAR SOUSA – Diretor da Empresa Mover Cadeiras/Go
       },
       {
         hora: "16h30",
-        titulo:
-          "Painel 3 – Acessibilidade, Empreendedorismo, Empresas Competitivas",
+        titulo: "PAINEL 5 – Empreendedorismo e Empresas Competitivas",
         descricao: `
-Mediador: Sonia da Costa, Diretora de Tecnologia Social, Economia Solidária e Tecnologia Assistiva (DEPTS/SEDES/MCTI)
+Mediadora:
+• Sonia da Costa – SEDES/MCTI
 
-EDUARDO RAMOS – Analista SEBRAE (Empreendedorismo)
-FABIANO ALVES – Secretário de Desenvolvimento Econômico e Inovação da Prefeitura de Uberlândia (Acessibilidade)
-GUILHERME COUTINHO CALHEIROS – Diretor de Planejamento da EMBRAPII (Interação com as Empresas)
-      `,
+Painelistas:
+• Elder Lima – SEBRAE Minas
+• Rafael Reimann Baptista – BioHub PUCRS
+• Guilherme Calheiros – EMBRAPII
+• Rogério Marino Franco – SENAI Uberlândia
+        `,
       },
       {
         hora: "18h00",
-        titulo: "ENCERRAMENTO OFICIAL",
+        titulo: "Encerramento Oficial",
         descricao: "",
       },
       {
         hora: "20h00",
-        titulo: "CONFRATERNIZAÇÃO POR ADESÃO",
-        descricao: "Local a ser definido.",
+        titulo: "Confraternização por adesão",
+        descricao: "",
       },
     ],
   },
@@ -238,19 +248,60 @@ GUILHERME COUTINHO CALHEIROS – Diretor de Planejamento da EMBRAPII (Interaçã
 export default function Programacao() {
   const [openDay, setOpenDay] = useState(0);
 
+  const renderDescricao = (descricao) => {
+    if (!descricao) return null;
+
+    const linhas = Array.isArray(descricao) ? descricao : descricao.split("\n");
+
+    const conteudo = [];
+    let lista = [];
+
+    linhas.forEach((linha, index) => {
+      const texto = linha.trim();
+
+      if (!texto) return;
+
+      const isItem = texto.startsWith("•") || texto.startsWith("-");
+
+      if (isItem) {
+        lista.push(texto.replace(/^[•-]\s*/, ""));
+      } else {
+        if (lista.length) {
+          conteudo.push(
+            <ul key={"ul" + index}>
+              {lista.map((item, i) => (
+                <li key={i}>{item}</li>
+              ))}
+            </ul>,
+          );
+          lista = [];
+        }
+
+        conteudo.push(<p key={"p" + index}>{texto}</p>);
+      }
+    });
+
+    if (lista.length) {
+      conteudo.push(
+        <ul key="ul-last">
+          {lista.map((item, i) => (
+            <li key={i}>{item}</li>
+          ))}
+        </ul>,
+      );
+    }
+
+    return conteudo;
+  };
+
   return (
     <main className="event-page">
-      {/* hero */}
       <section className="event-hero">
-        {/* overlay */}
         <div className="event-overlay"></div>
-
-        {/* noise */}
         <div className="event-noise" aria-hidden="true"></div>
 
         <div className="container event-grid">
           <div className="row align-items-center">
-            {/* TEXTO */}
             <div className="col-lg-6 event-left">
               <div className="glass-card event-card">
                 <h1 className="event-title">
@@ -260,20 +311,16 @@ export default function Programacao() {
                 <p className="event-description">
                   Dois dias de conteúdo estratégico, debates qualificados e
                   conexões que impulsionam a inovação em Tecnologias Assistivas
-                  no Brasil. A programação reúne pesquisadores, gestores
-                  públicos, indústria e representantes da sociedade civil em um
-                  ambiente pensado para gerar diálogo, colaboração e impacto
-                  real.
+                  no Brasil.
                 </p>
               </div>
             </div>
 
-            {/* IMAGEM */}
             <div className="col-lg-6 d-none d-lg-flex justify-content-center event-right">
               <div className="glass-card event-visual">
                 <img
                   src={eventImage}
-                  alt="Ilustração representando palestrantes e tecnologias assistivas"
+                  alt="Ilustração do evento"
                   className="event-image"
                 />
               </div>
@@ -281,16 +328,17 @@ export default function Programacao() {
           </div>
         </div>
       </section>
+
       <section>
         <EventGuestsSection />
       </section>
+
       <section className="programacao-page">
         <div className="container">
           <h1 className="programacao-title">Programação do Evento</h1>
 
           {programacao.map((dia, index) => (
             <div key={index} className="programacao-dia">
-              {/* HEADER DO DIA */}
               <button
                 className="dia-header"
                 onClick={() => setOpenDay(openDay === index ? null : index)}
@@ -298,18 +346,12 @@ export default function Programacao() {
                 <div>
                   <strong>Dia {dia.dia}</strong> — {dia.titulo}
                 </div>
-
-                {/*<span className={`dia-status ${dia.statusType}`}>
-                  {dia.status}
-                </span>*/}
               </button>
 
-              {/* CONTEÚDO */}
               <div
                 className={`linha-do-tempo ${
                   openDay === index ? "is-open" : ""
                 }`}
-                aria-hidden={openDay !== index}
               >
                 {dia.eventos.map((evento, i) => (
                   <div key={i} className="evento">
@@ -317,7 +359,8 @@ export default function Programacao() {
 
                     <div className="evento-card">
                       <h4>{evento.titulo}</h4>
-                      <p>{evento.descricao}</p>
+
+                      {renderDescricao(evento.descricao)}
                     </div>
                   </div>
                 ))}
