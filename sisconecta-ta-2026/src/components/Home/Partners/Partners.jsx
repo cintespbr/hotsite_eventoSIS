@@ -9,7 +9,7 @@ import viver from "../../../assets/partners/viver.png";
 import mcti from "../../../assets/partners/gov.png";
 import granExecutive from "../../../assets/partners/Logotipo-Grn-Dourado.jpg";
 import ExecutiveInn from "../../../assets/partners/ExecutiveInn.png";
-import logoAlgar from "../../../assets/partners/logo-algar.png";
+/*import logoAlgar from "../../../assets/partners/logo-algar.png";*/
 import logoCNPQ from "../../../assets/partners/logo-cnpq.png";
 import logompt from "../../../assets/partners/logo-mpt.png";
 import logoCompod from "../../../assets/partners/logo-compod.jpg";
@@ -62,11 +62,11 @@ const partners = [
     color: "#f39d12",
   },
 
-  {
+  /* {
     name: "Algar",
     logo: logoAlgar,
     color: "#2ecc70",
-  },
+  },*/
   {
     name: "MPT",
     logo: logompt,
