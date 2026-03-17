@@ -17,17 +17,19 @@ export default function ProgramPreview() {
           <h4 className="program-theme">Governança, Inovação E Comunidade</h4>
 
           <p className="program-description">
-            Um Dia Dedicado Ao Fortalecimento Da Governança, À Troca De
-            Experiências E À Aproximação Entre Projetos, Instituições E Pessoas
-            Que Constroem As Tecnologias Assistivas No País.
+            Um dia dedicado à articulação institucional, inovação no
+            paradesporto e conexão entre governo, academia e setor produtivo,
+            com demonstrações, painéis estratégicos e experiências práticas em
+            tecnologias assistivas.
           </p>
 
           <ul className="program-list">
-            <li>Credenciamento E Recepção Acessível</li>
-            <li>Abertura Institucional</li>
-            <li>Palestra Magna</li>
-            <li>Mostra Interativa De Projetos</li>
-            <li>Atividades De Articulação E Networking</li>
+            <li>Credenciamento e Abertura Oficial (Cerimonial)</li>
+            <li>Demonstrações de Tecnologias e Paradesporto</li>
+            <li>Lançamentos Institucionais (POLO.TA e Praça da Ciência)</li>
+            <li>Mostra Interativa e Oficinas de Tecnologias Assistivas</li>
+            <li>Painéis de Inovação e Inclusão Socioprodutiva</li>
+            <li>Networking com empresas, startups e governo</li>
           </ul>
         </div>
 
@@ -35,20 +37,22 @@ export default function ProgramPreview() {
         <div className="program-day">
           <h3 className="program-date">21 De Março De 2026</h3>
           <h4 className="program-theme">
-            Estruturação, Qualidade E Transferência
+            Estruturação Da Rede E Transferência Tecnológica
           </h4>
 
           <p className="program-description">
-            Um Dia Voltado À Consolidação De Caminhos Práticos Para A
-            Implementação, Certificação E Transferência De Soluções Em
-            Tecnologias Assistivas.
+            Um dia voltado à consolidação da Rede SisAssistiva, com foco em
+            políticas públicas, capacitação, regulamentação e fortalecimento do
+            ecossistema de inovação em tecnologias assistivas no Brasil.
           </p>
 
           <ul className="program-list">
-            <li>Mesas Técnicas E Mediação De Desafios</li>
-            <li>Painéis INMETRO E ANVISA</li>
-            <li>Ciência, Mercado E Transferência Tecnológica</li>
-            <li>Encerramento E Pactuações Estratégicas</li>
+            <li>Abertura institucional e integração da Rede SisAssistiva</li>
+            <li>Painel de Políticas Públicas e Educação Inclusiva</li>
+            <li>Mostra e Oficinas de Tecnologias Assistivas</li>
+            <li>Painel de Regulamentação, Certificação e Emprego PcD</li>
+            <li>Painel de Empreendedorismo e Inovação</li>
+            <li>Encerramento oficial e confraternização</li>
           </ul>
         </div>
 

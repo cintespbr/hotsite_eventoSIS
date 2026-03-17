@@ -163,7 +163,7 @@ export default function Hero() {
               <div className="image-placeholder">
                 <img
                   src={section1Img}
-                  alt="Ilustração representando palestrantes e tecnologias assistivas"
+                  alt="Ilustração representando pessoas com deficiência utilizando tecnologias assistivas"
                   className="image-placeholder"
                 />
               </div>
