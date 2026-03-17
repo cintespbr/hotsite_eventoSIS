@@ -2,7 +2,7 @@
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center -330px;
+  background-position: center -588px;
   padding: 60px 0;
 }
 /* overlay para contraste */
@@ -85,5 +85,15 @@
 
   .footer-social {
     justify-content: center;
+  }
+}
+
+@media (max-width: 1920px) {
+  .footer {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center -330px;
+    padding: 60px 0;
   }
 }
