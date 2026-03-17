@@ -123,6 +123,11 @@ const workshops = [
     tema: "proteses",
     link: "https://forms.gle/bLL6fsaBVssKrcii8",
   },
+  {
+    titulo: "Desvendando o BodyTracking com uso de visão computacional",
+    tema: "saude",
+    link: "https://forms.gle/YU6bUEkMwm5n1c6b7",
+  },
 ];
 
 export default function Workshops() {
