@@ -120,7 +120,6 @@ Painelistas:
 • Isadora Nascimento – MDHC
 • Fábio Araújo – Secretaria de Paradesporto
 • Renato Carvalho Fernandes – Prefeito de Araguari
-• Marcel Vieira Rodrigues – Prefeito do Prata
         `,
       },
       {
