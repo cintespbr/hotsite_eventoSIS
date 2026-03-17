@@ -174,7 +174,7 @@
 
 /* ABERTO */
 .linha-do-tempo.is-open {
-  max-height: 2000px; /* valor alto seguro */
+  max-height: 100%; /* valor alto seguro */
   opacity: 1;
   transform: translateY(0);
 }

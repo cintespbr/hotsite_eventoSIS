@@ -102,7 +102,6 @@ Mediador:
 
 Painelistas:
 • Fabiano Alves – Prefeitura de Uberlândia
-• Zaima Milazzo – Algar Telecom
 • Ricardo Cappelli – ABDI
 • Daniel Almeida Filho – SETEC/MCTI
 • Wadson Ribeiro – FINEP
