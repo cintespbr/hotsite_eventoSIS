@@ -102,7 +102,6 @@ Mediador:
 
 Painelistas:
 • Fabiano Alves – Prefeitura de Uberlândia
-• Ricardo Cappelli – ABDI
 • Daniel Almeida Filho – SETEC/MCTI
 • Wadson Ribeiro – FINEP
 • Guilherme Lira – TecAssistiva
