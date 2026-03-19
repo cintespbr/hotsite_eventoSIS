@@ -6,7 +6,7 @@ import Showcase from "../components/Home/Showcase/Showcase";
 import ProgramPreview from "../components/Home/ProgramPreview/ProgramPreview";
 /*import Speakers from "../components/Home/Speakers/Speakers";*/
 /*import TechnicalGuides from "../components/Home/TechnicalGuides/TechnicalGuides";*/
-import Registration from "../components/Home/Registration/Registration";
+import TeamSection from "../components/Home/Registration/TeamSection";
 import Partners from "../components/Home/Partners/Partners";
 import InstagramPost from "../components/Home/InstagramPost/InstagramPost";
 
@@ -22,7 +22,7 @@ export default function Home() {
       <ProgramPreview />
       {/*<Speakers />*/}
       {/*<TechnicalGuides />*/}
-      <Registration />
+      <TeamSection />
       <Partners />
     </>
   );

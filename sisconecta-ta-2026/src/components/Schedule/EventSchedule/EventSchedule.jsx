@@ -111,7 +111,7 @@ Mediador:
 
 Painelistas:
 • Fabiano Alves – Prefeitura de Uberlândia
-• Daniel Almeida Filho – SETEC/MCTI
+• Daniel Almeida Filho – SETEC/MCTI (Online)
 • Wadson Ribeiro – FINEP
 • Guilherme Lira – TecAssistiva
 • Babu Belarmino – Colibri Interfaces
@@ -178,7 +178,7 @@ Painelistas:
         titulo: "PAINEL 3 – Políticas Públicas",
         descricao: `
 Mediadora:
-• Ana Marta de Souza – UFU
+Paula Adriana Vieira da Cunha - Supervisora Educacional (SESI)
 
 Expositores:
 • Polliana Bernardes – Educação Prata
@@ -186,7 +186,6 @@ Expositores:
 • Milton Pereira – MCTI
 • Polyana Penna – IBICT
 • Janine Peixoto – UFU
-• Paulo Veloso – MPT
 
 Objetivos:
 • Projeto piloto PcD
@@ -224,12 +223,12 @@ Objetivos:
         titulo: "PAINEL 4 – Regulamentação e Emprego PcD",
         descricao: `
 Mediadora:
-• Carla Guimarães – INT
+• Carla Guimarães – INT (A confirmar)
 
 Painelistas:
 • Carlos Azevedo – INMETRO
 • Idari Alves – Prefeitura
-• Edison Passafaro – ABNT
+• Edison Passafaro – ABNT (Online)
 • Lindomar Santos – Mover
         `,
       },
@@ -250,7 +249,7 @@ Mediadora:
 Painelistas:
 • Elder Lima – SEBRAE
 • Rafael Baptista – BioHub PUCRS
-• Guilherme Calheiros – EMBRAPII
+• Guilherme Calheiros – EMBRAPII (A confirmar)
 • Rogério Franco – SENAI
         `,
       },
