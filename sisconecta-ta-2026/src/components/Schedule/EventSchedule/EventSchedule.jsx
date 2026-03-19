@@ -249,7 +249,6 @@ Mediadora:
 Painelistas:
 • Elder Lima – SEBRAE
 • Rafael Baptista – BioHub PUCRS
-• Guilherme Calheiros – EMBRAPII (A confirmar)
 • Rogério Franco – SENAI
         `,
       },
