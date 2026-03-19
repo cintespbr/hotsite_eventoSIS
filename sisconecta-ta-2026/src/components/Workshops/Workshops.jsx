@@ -109,6 +109,12 @@ const workshops = [
     link: "https://forms.gle/4KufftHyhKZiVR1C7",
   },
   {
+    titulo:
+      "Cocriação: Interfaces entre Acessibilidade Curricular e Tecnologia Assistiva",
+    tema: "educacao",
+    link: "https://forms.gle/SyhD1fnspyETzEre6",
+  },
+  {
     titulo: "IA como ferramenta assistiva e inclusiva",
     tema: "digital",
     link: "https://forms.gle/4xkDQwK8aKFeNqaw9",
