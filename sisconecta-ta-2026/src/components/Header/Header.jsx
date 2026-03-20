@@ -54,6 +54,11 @@ export default function Header() {
                   Oficinas
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/galeria">
+                  Galeria
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

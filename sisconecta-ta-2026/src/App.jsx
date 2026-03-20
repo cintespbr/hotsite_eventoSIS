@@ -5,6 +5,7 @@ import Programacao from "./pages/Schedule";
 import Subscribe from "./pages/Subscribe";
 import { VLibras } from "./components/VLibras";
 import Workshops from "./pages/Workshops";
+import GaleriaEvento from "./pages/GaleriaEvento";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="/programacao" element={<Programacao />} />
           <Route path="/inscricoes" element={<Subscribe />} />
           <Route path="/oficinas" element={<Workshops />} />
+          <Route path="/galeria" element={<GaleriaEvento />} />
         </Route>
       </Routes>
     </BrowserRouter>
