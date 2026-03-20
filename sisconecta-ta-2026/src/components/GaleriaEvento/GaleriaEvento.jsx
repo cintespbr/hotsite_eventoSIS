@@ -1,6 +1,12 @@
 import { useState } from "react";
 import "./GaleriaEvento.css";
+import { Link } from "react-router-dom";
 
+// HERO IMAGE
+import heroBg from "../../assets/back-program.png";
+import heroSide from "../../assets/event-hero.png";
+
+// IMPORTS IMAGENS (mantidos)
 import criancaAtleta from "../../assets/evento-IMG/criança_atleta1.png";
 import atletas from "../../assets/evento-IMG/atletas1.png";
 import autoridades from "../../assets/evento-IMG/autoridades-palco1.png";
@@ -23,71 +29,172 @@ import cris1 from "../../assets/evento-IMG/cris1.png";
 import myway1 from "../../assets/evento-IMG/myway1.png";
 import myway2 from "../../assets/evento-IMG/myway2.png";
 
-const imagens = [
-  { src: criancaAtleta },
-  { src: atletas },
-  { src: autoridades },
-  { src: gabi1 },
-  { src: autoridades2 },
-  { src: publico },
-  { src: dandara1 },
-  { src: dandaraEreitor },
-  { src: cleudmar1 },
-  { src: reitor1 },
-  { src: secretario },
-  { src: idari1 },
-  { src: palco1 },
-  { src: palco2 },
-  { src: palco3 },
-  { src: cleudmar2 },
-  { src: atletas2 },
-  { src: atletaParalimpico1 },
-  { src: cris1 },
-  { src: myway1 },
-  { src: myway2 },
+// APRESENTAÇÕES
+import apresentacao13 from "../../assets/evento-IMG/apresentacao13.jpg";
+import apresentacao14 from "../../assets/evento-IMG/apresentacao14.jpg";
+import apresentacao15 from "../../assets/evento-IMG/apresentacao15.jpg";
+import apresentacao16 from "../../assets/evento-IMG/apresentacao16.jpg";
+import apresentacao17 from "../../assets/evento-IMG/apresentacao17.jpg";
+import apresentacao19 from "../../assets/evento-IMG/apresentacao19.jpg";
+
+// LANÇAMENTOS
+import lancamento1 from "../../assets/evento-IMG/lancamento1.jpg";
+import lancamento2 from "../../assets/evento-IMG/lancamento2.jpg";
+import lancamento3 from "../../assets/evento-IMG/lancamento3.jpg";
+import lancamento4 from "../../assets/evento-IMG/lancamento4.jpg";
+import lancamento5 from "../../assets/evento-IMG/lancamento5.jpg";
+import lancamento6 from "../../assets/evento-IMG/lancamento6.jpg";
+import lancamento7 from "../../assets/evento-IMG/lancamento7.jpg";
+import lancamento8 from "../../assets/evento-IMG/lancamento8-cleudmar-globo.jpg";
+
+// SABIÁ
+import sabias1 from "../../assets/evento-IMG/lancamentosabia1.jpg";
+import sabias2 from "../../assets/evento-IMG/lancamentosabia2.jpg";
+import sabias3 from "../../assets/evento-IMG/lancamentosabia3.jpg";
+
+// TIRO AO ARCO
+import tiro1 from "../../assets/evento-IMG/tiroaoarco-cego1.jpg";
+import tiro2 from "../../assets/evento-IMG/tiroaoarco-cego2.jpg";
+import tiro3 from "../../assets/evento-IMG/tiroaoarco-cego3.jpg";
+import tiro4 from "../../assets/evento-IMG/tiroaoarco-cego4.jpg";
+import tiro5 from "../../assets/evento-IMG/tiroaoarco-cego5.jpg";
+import tiro6 from "../../assets/evento-IMG/tiroaoarco-cego6.jpg";
+
+// EXTRAS
+import atleta3 from "../../assets/evento-IMG/atleta3.jpg";
+import inacio2 from "../../assets/evento-IMG/inacio2.jpg";
+import prefeito2 from "../../assets/evento-IMG/prefeito2.jpg";
+
+// GRUPOS
+const grupos = [
+  {
+    titulo: "Abertura do Evento",
+    imagens: [
+      criancaAtleta,
+      cleudmar2,
+      atletas,
+      gabi1,
+      autoridades,
+      autoridades2,
+      publico,
+      dandara1,
+      dandaraEreitor,
+      cleudmar1,
+      reitor1,
+      secretario,
+      idari1,
+      atletaParalimpico1,
+      cris1,
+      atleta3,
+      atletas2,
+      inacio2,
+      prefeito2,
+    ],
+  },
+
+  {
+    titulo: "Lançamentos e Inovações",
+    imagens: [
+      lancamento1,
+      lancamento2,
+      lancamento3,
+      lancamento4,
+      lancamento5,
+      lancamento6,
+      lancamento7,
+      lancamento8,
+      sabias1,
+      sabias2,
+      sabias3,
+    ],
+  },
+
+  {
+    titulo: "Apresentações e Demonstrações",
+    imagens: [
+      apresentacao13,
+      apresentacao14,
+      apresentacao15,
+      apresentacao16,
+      apresentacao17,
+      apresentacao19,
+      myway1,
+      myway2,
+    ],
+  },
+
+  {
+    titulo: "Tiro com Arco Adaptado",
+    imagens: [tiro1, tiro2, tiro3, tiro4, tiro5, tiro6],
+  },
+
+  {
+    titulo: "Palco e Apresentações",
+    imagens: [palco1, palco2, palco3],
+  },
 ];
 
 export default function GaleriaEvento() {
-  const [imagemAtiva, setImagemAtiva] = useState(null);
+  const [grupoAberto, setGrupoAberto] = useState(null);
   const [indexAtivo, setIndexAtivo] = useState(null);
+  const [listaAtual, setListaAtual] = useState([]);
+
+  const toggleGrupo = (index) => {
+    setGrupoAberto(grupoAberto === index ? null : index);
+  };
+
+  const abrirImagem = (lista, index) => {
+    setListaAtual(lista);
+    setIndexAtivo(index);
+  };
 
   const proximaImagem = () => {
-    setIndexAtivo((prev) => (prev === imagens.length - 1 ? 0 : prev + 1));
+    setIndexAtivo((prev) => (prev === listaAtual.length - 1 ? 0 : prev + 1));
   };
 
   const imagemAnterior = () => {
-    setIndexAtivo((prev) => (prev === 0 ? imagens.length - 1 : prev - 1));
+    setIndexAtivo((prev) => (prev === 0 ? listaAtual.length - 1 : prev - 1));
   };
 
   return (
     <main className="galeria-page">
-      {/* HERO */}
-      <section className="galeria-hero">
-        <div className="galeria-overlay"></div>
-        <div className="galeria-noise"></div>
+      {/* ================= HERO NOVA ================= */}
+      <section className="event-hero">
+        <div
+          className="event-bg"
+          style={{ backgroundImage: `url(${heroBg})` }}
+        ></div>
 
-        <div className="container">
+        <div className="event-noise"></div>
+
+        <div className="container event-grid">
           <div className="row align-items-center">
-            <div className="col-lg-6 galeria-left">
-              <div className="glass-card galeria-card">
-                <h1 className="galeria-hero-title">
-                  Galeria do Sisconec.TA 2026
+            <div className="col-lg-6 event-left">
+              <div className="glass-card event-card">
+                <h1 className="event-title">
+                  Galeria Oficial do Sisconec.TA 2026
                 </h1>
 
-                <p className="galeria-hero-text">
-                  Acompanhe em tempo real os momentos mais marcantes do evento,
-                  com registros que refletem a inovação, inclusão e o impacto
-                  social do Sisconec.TA 2026.
+                <p className="event-description">
+                  Explore os momentos mais marcantes do evento em tempo real.
+                  Tecnologia, inclusão e inovação registradas em cada detalhe.
                 </p>
+
+                <div className="mt-4">
+                  <Link className="btn btn-primary" to="/programacao">
+                    Ver Programação
+                  </Link>
+                </div>
               </div>
             </div>
 
             <div className="col-lg-6 d-none d-lg-flex justify-content-center">
-              <div className="glass-card galeria-visual">
+              <div className="glass-card event-visual">
                 <img
-                  src={atletas}
+                  src={heroSide}
                   alt="Galeria do evento"
-                  className="galeria-hero-image"
+                  className="event-image"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -95,57 +202,59 @@ export default function GaleriaEvento() {
         </div>
       </section>
 
-      {/* GALERIA */}
-      <section className="galeria-section">
+      {/* ================= TITULO + SUBTITULO ================= */}
+      <section className="galeria-header">
         <div className="container">
           <h2 className="galeria-title">
-            Momentos que estão acontecendo agora no evento
+            Momentos que estão acontecendo agora
           </h2>
 
           <p className="galeria-subtitle">
-            Acompanhe registros em tempo real do Sisconec.TA 2026 e veja de
-            perto como tecnologia, inclusão e inovação estão transformando
-            experiências ao longo de toda a programação.
+            Acompanhe registros reais do Sisconec.TA 2026 e mergulhe em uma
+            experiência visual que revela como a tecnologia assistiva está
+            impactando vidas, conectando pessoas e transformando o futuro.
           </p>
-
-          <div className="galeria-grid">
-            {imagens.map((img, i) => (
-              <div
-                className="galeria-item"
-                key={i}
-                onClick={() => {
-                  setImagemAtiva(img.src);
-                  setIndexAtivo(i);
-                }}
-              >
-                <div className="galeria-overlay-card"></div>
-                <img src={img.src} alt={`Imagem ${i + 1}`} />
-                {/* <h3>{img.titulo}</h3> */}
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 
-      {/* MODAL ANTIGO (mantido) */}
-      {imagemAtiva && (
-        <div className="galeria-modal" onClick={() => setImagemAtiva(null)}>
-          <span className="galeria-close">&times;</span>
+      {/* ================= ACORDEON ================= */}
+      <section className="galeria-section">
+        <div className="container">
+          {grupos.map((grupo, gIndex) => (
+            <div className="accordion-item" key={gIndex}>
+              <button
+                className="accordion-header"
+                onClick={() => toggleGrupo(gIndex)}
+              >
+                {grupo.titulo}
+                <span>{grupoAberto === gIndex ? "−" : "+"}</span>
+              </button>
 
-          <img
-            src={imagemAtiva}
-            alt="Imagem ampliada"
-            className="galeria-modal-img"
-            onClick={(e) => e.stopPropagation()}
-          />
+              {grupoAberto === gIndex && (
+                <div className="galeria-grid">
+                  {grupo.imagens.map((img, i) => (
+                    <div
+                      className="galeria-item"
+                      key={i}
+                      onClick={() => abrirImagem(grupo.imagens, i)}
+                    >
+                      <img src={img} alt="" loading="lazy" />
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          ))}
         </div>
-      )}
+      </section>
 
-      {/* NOVO MODAL COM SETAS */}
+      {/* ================= MODAL ================= */}
       {indexAtivo !== null && (
         <div className="galeria-modal" onClick={() => setIndexAtivo(null)}>
+          {/* BOTÃO FECHAR */}
           <span className="galeria-close">&times;</span>
 
+          {/* SETA ESQUERDA */}
           <button
             className="galeria-seta esquerda"
             onClick={(e) => {
@@ -156,13 +265,15 @@ export default function GaleriaEvento() {
             ❮
           </button>
 
+          {/* IMAGEM */}
           <img
-            src={imagens[indexAtivo].src}
+            src={listaAtual[indexAtivo]}
             alt="Imagem ampliada"
             className="galeria-modal-img"
             onClick={(e) => e.stopPropagation()}
           />
 
+          {/* SETA DIREITA */}
           <button
             className="galeria-seta direita"
             onClick={(e) => {
