@@ -129,7 +129,7 @@ const grupos = [
   },
 
   {
-    titulo: "Palco e Apresentações",
+    titulo: "Palco",
     imagens: [palco1, palco2, palco3],
   },
 ];
