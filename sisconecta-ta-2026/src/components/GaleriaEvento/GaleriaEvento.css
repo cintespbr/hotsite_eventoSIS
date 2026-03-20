@@ -1,0 +1,187 @@
+/* PAGE */
+.galeria-page {
+  background: #ffffff;
+  padding-bottom: 80px;
+}
+
+/* HERO */
+.galeria-hero {
+  position: relative;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: linear-gradient(135deg, #0b0d8a 0%, #0c0a6e 100%);
+}
+
+.galeria-overlay {
+  position: absolute;
+  inset: 0;
+  background-image: url("../assets/evento-IMG/atletas1.png");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.15;
+}
+
+.galeria-noise {
+  position: absolute;
+  inset: 0;
+  opacity: 0.04;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.galeria-left {
+  position: relative;
+  z-index: 2;
+}
+
+.galeria-card {
+  padding: 40px;
+  color: white;
+}
+
+.galeria-hero-title {
+  font-size: clamp(2rem, 2.5vw, 2.8rem);
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.galeria-hero-text {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  max-width: 520px;
+}
+
+.galeria-visual {
+  padding: 10px;
+}
+
+.galeria-hero-image {
+  width: 100%;
+  border-radius: 14px;
+}
+
+/* SECTION */
+.galeria-section {
+  padding: 60px 0 0 0;
+}
+
+.galeria-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+}
+
+.galeria-subtitle {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 50px auto;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* GRID */
+.galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+/* CARD */
+.galeria-item {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.galeria-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.galeria-overlay-card {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.1));
+  z-index: 1;
+}
+
+.galeria-item h3 {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  right: 15px;
+  color: white;
+  font-size: 0.9rem;
+  z-index: 2;
+}
+
+/* HOVER */
+.galeria-item:hover {
+  transform: translateY(-6px);
+}
+
+/* ===== MODAL ===== */
+.galeria-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.galeria-modal-img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 12px;
+  animation: zoomIn 0.3s ease;
+}
+
+.galeria-close {
+  position: absolute;
+  top: 25px;
+  right: 40px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+/* ANIMAÇÃO */
+@keyframes zoomIn {
+  from {
+    transform: scale(0.85);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* RESPONSIVO */
+@media (max-width: 1200px) {
+  .galeria-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .galeria-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .galeria-grid {
+    grid-template-columns: 1fr;
+  }
+}
