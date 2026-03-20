@@ -223,7 +223,7 @@ Objetivos:
         titulo: "PAINEL 4 – Regulamentação e Emprego PcD",
         descricao: `
 Mediadora:
-• Carla Guimarães – INT (A confirmar)
+• Carla Guimarães – INT
 
 Painelistas:
 • Carlos Azevedo – INMETRO
