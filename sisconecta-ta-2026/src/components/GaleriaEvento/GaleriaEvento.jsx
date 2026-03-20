@@ -13,60 +13,51 @@ import reitor1 from "../../assets/evento-IMG/reitor1.png";
 import secretario from "../../assets/evento-IMG/secretario1.png";
 import idari1 from "../../assets/evento-IMG/idari1.png";
 import gabi1 from "../../assets/evento-IMG/gabi1.png";
+import palco3 from "../../assets/evento-IMG/palco3.png";
+import cleudmar2 from "../../assets/evento-IMG/cleudmar2.png";
+import palco2 from "../../assets/evento-IMG/palco2.png";
+import palco1 from "../../assets/evento-IMG/palco1.png";
+import atletas2 from "../../assets/evento-IMG/atletas2.png";
+import atletaParalimpico1 from "../../assets/evento-IMG/atleta-paralimpico1.png";
+import cris1 from "../../assets/evento-IMG/cris1.png";
+import myway1 from "../../assets/evento-IMG/myway1.png";
+import myway2 from "../../assets/evento-IMG/myway2.png";
 
 const imagens = [
-  {
-    src: criancaAtleta,
-    // titulo: "Atleta Mirim",
-  },
-  {
-    src: atletas,
-    // titulo: "Atletas em ação",
-  },
-  {
-    src: autoridades,
-    // titulo: "Autoridades no palco",
-  },
-  {
-    src: gabi1,
-    // titulo: "Autoridades no palco",
-  },
-  {
-    src: autoridades2,
-    // titulo: "Autoridades no palco",
-  },
-  {
-    src: publico,
-    // titulo: "Autoridades no palco",
-  },
-  {
-    src: dandara1,
-    // titulo: "Autoridades no palco",
-  },
-  {
-    src: dandaraEreitor,
-    // titulo: "Autoridades no palco",
-  },
-  {
-    src: cleudmar1,
-    // titulo: "Autoridades no palco",
-  },
-  {
-    src: reitor1,
-    // titulo: "Autoridades no palco",
-  },
-  {
-    src: secretario,
-    // titulo: "Autoridades no palco",
-  },
-  {
-    src: idari1,
-    // titulo: "Autoridades no palco",
-  },
+  { src: criancaAtleta },
+  { src: atletas },
+  { src: autoridades },
+  { src: gabi1 },
+  { src: autoridades2 },
+  { src: publico },
+  { src: dandara1 },
+  { src: dandaraEreitor },
+  { src: cleudmar1 },
+  { src: reitor1 },
+  { src: secretario },
+  { src: idari1 },
+  { src: palco1 },
+  { src: palco2 },
+  { src: palco3 },
+  { src: cleudmar2 },
+  { src: atletas2 },
+  { src: atletaParalimpico1 },
+  { src: cris1 },
+  { src: myway1 },
+  { src: myway2 },
 ];
 
 export default function GaleriaEvento() {
   const [imagemAtiva, setImagemAtiva] = useState(null);
+  const [indexAtivo, setIndexAtivo] = useState(null);
+
+  const proximaImagem = () => {
+    setIndexAtivo((prev) => (prev === imagens.length - 1 ? 0 : prev + 1));
+  };
+
+  const imagemAnterior = () => {
+    setIndexAtivo((prev) => (prev === 0 ? imagens.length - 1 : prev - 1));
+  };
 
   return (
     <main className="galeria-page">
@@ -116,16 +107,19 @@ export default function GaleriaEvento() {
             perto como tecnologia, inclusão e inovação estão transformando
             experiências ao longo de toda a programação.
           </p>
+
           <div className="galeria-grid">
             {imagens.map((img, i) => (
               <div
                 className="galeria-item"
                 key={i}
-                onClick={() => setImagemAtiva(img.src)}
+                onClick={() => {
+                  setImagemAtiva(img.src);
+                  setIndexAtivo(i);
+                }}
               >
                 <div className="galeria-overlay-card"></div>
                 <img src={img.src} alt={`Imagem ${i + 1}`} />
-
                 {/* <h3>{img.titulo}</h3> */}
               </div>
             ))}
@@ -133,7 +127,7 @@ export default function GaleriaEvento() {
         </div>
       </section>
 
-      {/* MODAL */}
+      {/* MODAL ANTIGO (mantido) */}
       {imagemAtiva && (
         <div className="galeria-modal" onClick={() => setImagemAtiva(null)}>
           <span className="galeria-close">&times;</span>
@@ -144,6 +138,40 @@ export default function GaleriaEvento() {
             className="galeria-modal-img"
             onClick={(e) => e.stopPropagation()}
           />
+        </div>
+      )}
+
+      {/* NOVO MODAL COM SETAS */}
+      {indexAtivo !== null && (
+        <div className="galeria-modal" onClick={() => setIndexAtivo(null)}>
+          <span className="galeria-close">&times;</span>
+
+          <button
+            className="galeria-seta esquerda"
+            onClick={(e) => {
+              e.stopPropagation();
+              imagemAnterior();
+            }}
+          >
+            ❮
+          </button>
+
+          <img
+            src={imagens[indexAtivo].src}
+            alt="Imagem ampliada"
+            className="galeria-modal-img"
+            onClick={(e) => e.stopPropagation()}
+          />
+
+          <button
+            className="galeria-seta direita"
+            onClick={(e) => {
+              e.stopPropagation();
+              proximaImagem();
+            }}
+          >
+            ❯
+          </button>
         </div>
       )}
     </main>
