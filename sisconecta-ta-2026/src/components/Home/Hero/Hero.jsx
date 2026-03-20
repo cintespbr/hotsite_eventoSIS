@@ -74,26 +74,14 @@ export default function Hero() {
 
               <div className="glass-card countdown-card">
                 <span className="countdown-label">
-                  Anote na sua agenda, faltam apenas:
+                  O evento está acontecendo agora! <br />
+                  Acompanhe a galeria do evento.
                 </span>
 
                 <div className="countdown-grid">
-                  <div>
-                    <strong>{timeLeft.dias}</strong>
-                    <span>dias</span>
-                  </div>
-                  <div>
-                    <strong>{timeLeft.horas}</strong>
-                    <span>horas</span>
-                  </div>
-                  <div>
-                    <strong>{timeLeft.minutos}</strong>
-                    <span>minutos</span>
-                  </div>
-                  <div>
-                    <strong>{timeLeft.segundos}</strong>
-                    <span>segundos</span>
-                  </div>
+                  <Link className="btn btn-primary btn-lg" to="/galeria">
+                    Ver Galeria
+                  </Link>
                 </div>
               </div>
             </div>
