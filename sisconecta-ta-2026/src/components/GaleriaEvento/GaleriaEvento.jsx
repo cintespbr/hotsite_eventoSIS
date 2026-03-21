@@ -81,6 +81,51 @@ import inacio2 from "../../assets/evento-IMG/inacio2.jpg";
 import prefeito2 from "../../assets/evento-IMG/prefeito2.jpg";
 
 // ================= DIA 20 =================
+// PAINÉIS
+import painel1 from "../../assets/evento-IMG/dia_21/painel1.jpg";
+import painel2 from "../../assets/evento-IMG/dia_21/painel2.jpg";
+import painel3 from "../../assets/evento-IMG/dia_21/painel3.jpg";
+import painel4 from "../../assets/evento-IMG/dia_21/painel4.jpg";
+import painel5 from "../../assets/evento-IMG/dia_21/painel5.jpg";
+
+// PITCHS
+import pitch1 from "../../assets/evento-IMG/dia_21/pitch1.jpg";
+import pitch2 from "../../assets/evento-IMG/dia_21/pitch2.jpg";
+import pitch3 from "../../assets/evento-IMG/dia_21/pitch3.jpg";
+import pitch4 from "../../assets/evento-IMG/dia_21/pitch4.jpg";
+import pitch5 from "../../assets/evento-IMG/dia_21/pitch5.jpg";
+import pitch6 from "../../assets/evento-IMG/dia_21/pitch6.jpg";
+import pitch7 from "../../assets/evento-IMG/dia_21/pitch7.jpg";
+import pitch8 from "../../assets/evento-IMG/dia_21/pitch8.jpg";
+import pitch9 from "../../assets/evento-IMG/dia_21/pitch9.jpg";
+import pitch10 from "../../assets/evento-IMG/dia_21/pitch10.jpg";
+import pitch11 from "../../assets/evento-IMG/dia_21/pitch11.jpg";
+import pitch12 from "../../assets/evento-IMG/dia_21/pitch12.jpg";
+import pitch13 from "../../assets/evento-IMG/dia_21/pitch13.jpg";
+import pitch14 from "../../assets/evento-IMG/dia_21/pitch14.jpg";
+import pitch15 from "../../assets/evento-IMG/dia_21/pitch15.jpg";
+import pitch16 from "../../assets/evento-IMG/dia_21/pitch16.jpg";
+import pitch17 from "../../assets/evento-IMG/dia_21/pitch17.jpg";
+import pitch18 from "../../assets/evento-IMG/dia_21/pitch18.jpg";
+import pitch19 from "../../assets/evento-IMG/dia_21/pitch19.jpg";
+import pitch20 from "../../assets/evento-IMG/dia_21/pitch20.jpg";
+import pitch21 from "../../assets/evento-IMG/dia_21/pitch21.jpg";
+import pitch22 from "../../assets/evento-IMG/dia_21/pitch22.jpg";
+
+// PÚBLICO
+import publico1_d2 from "../../assets/evento-IMG/dia_21/publico1.jpg";
+import publico2_d2 from "../../assets/evento-IMG/dia_21/publico2.jpg";
+import publico3_d2 from "../../assets/evento-IMG/dia_21/publico3.jpg";
+import publico4_d2 from "../../assets/evento-IMG/dia_21/publico4.jpg";
+import publico5_d2 from "../../assets/evento-IMG/dia_21/publico5.jpg";
+import publico6_d2 from "../../assets/evento-IMG/dia_21/publico6.jpg";
+import publico7_d2 from "../../assets/evento-IMG/dia_21/publico7.jpg";
+import publico8_d2 from "../../assets/evento-IMG/dia_21/publico8.jpg";
+import publico9_d2 from "../../assets/evento-IMG/dia_21/publico9.jpg";
+import publico10_d2 from "../../assets/evento-IMG/dia_21/publico10.jpg";
+import publico11_d2 from "../../assets/evento-IMG/dia_21/publico11.jpg";
+import publico12_d2 from "../../assets/evento-IMG/dia_21/publico12.jpg";
+
 const grupos = [
   {
     titulo: "Abertura do Evento",
@@ -160,9 +205,51 @@ const grupos = [
 // ================= DIA 21 =================
 const gruposDia21 = [
   {
-    titulo: "Abertura do Evento",
+    titulo: "Painéis",
+    imagens: [painel1, painel2, painel3, painel4, painel5],
+  },
+  {
+    titulo: "Pitchs",
     imagens: [
-      // 👉 COLOQUE AQUI AS NOVAS IMAGENS DE HOJE
+      pitch1,
+      pitch2,
+      pitch3,
+      pitch4,
+      pitch5,
+      pitch6,
+      pitch7,
+      pitch8,
+      pitch9,
+      pitch10,
+      pitch11,
+      pitch12,
+      pitch13,
+      pitch14,
+      pitch15,
+      pitch16,
+      pitch17,
+      pitch18,
+      pitch19,
+      pitch20,
+      pitch21,
+      pitch22,
+    ],
+  },
+  {
+    titulo: "Público e Ambiente",
+    imagens: [
+      publico1_d2,
+      publico2_d2,
+      publico3_d2,
+      publico4_d2,
+      publico5_d2,
+      publico6_d2,
+      publico7_d2,
+      publico8_d2,
+      publico9_d2,
+      publico10_d2,
+      publico11_d2,
+      publico12_d2,
     ],
   },
 ];
