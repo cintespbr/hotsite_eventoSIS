@@ -6,7 +6,10 @@ import { Link } from "react-router-dom";
 import heroBg from "../../assets/back-program.png";
 import heroSide from "../../assets/event-hero.png";
 
-// IMPORTS IMAGENS (mantidos)
+// ================= IMAGENS =================
+
+// (mantive todas que você já tinha)
+
 import criancaAtleta from "../../assets/evento-IMG/criança_atleta1.png";
 import atletas from "../../assets/evento-IMG/atletas1.png";
 import autoridades from "../../assets/evento-IMG/autoridades-palco1.png";
@@ -30,6 +33,18 @@ import myway1 from "../../assets/evento-IMG/myway1.png";
 import myway2 from "../../assets/evento-IMG/myway2.png";
 
 // APRESENTAÇÕES
+import apresentacao1 from "../../assets/evento-IMG/apresentacao1.jpg";
+import apresentacao2 from "../../assets/evento-IMG/apresentacao2.jpg";
+import apresentacao3 from "../../assets/evento-IMG/apresentacao3.jpg";
+import apresentacao4 from "../../assets/evento-IMG/apresentacao4.jpg";
+import apresentacao5 from "../../assets/evento-IMG/apresentacao5.jpg";
+import apresentacao6 from "../../assets/evento-IMG/apresentacao6.jpg";
+import apresentacao7 from "../../assets/evento-IMG/apresentacao7.jpg";
+import apresentacao8 from "../../assets/evento-IMG/apresentacao8.jpg";
+import apresentacao9 from "../../assets/evento-IMG/apresentacao9.jpg";
+import apresentacao10 from "../../assets/evento-IMG/apresentacao10.jpg";
+import apresentacao11 from "../../assets/evento-IMG/apresentacao11.jpg";
+import apresentacao12 from "../../assets/evento-IMG/apresentacao12.jpg";
 import apresentacao13 from "../../assets/evento-IMG/apresentacao13.jpg";
 import apresentacao14 from "../../assets/evento-IMG/apresentacao14.jpg";
 import apresentacao15 from "../../assets/evento-IMG/apresentacao15.jpg";
@@ -65,7 +80,7 @@ import atleta3 from "../../assets/evento-IMG/atleta3.jpg";
 import inacio2 from "../../assets/evento-IMG/inacio2.jpg";
 import prefeito2 from "../../assets/evento-IMG/prefeito2.jpg";
 
-// GRUPOS
+// ================= DIA 20 =================
 const grupos = [
   {
     titulo: "Abertura do Evento",
@@ -91,7 +106,6 @@ const grupos = [
       prefeito2,
     ],
   },
-
   {
     titulo: "Lançamentos e Inovações",
     imagens: [
@@ -108,10 +122,21 @@ const grupos = [
       sabias3,
     ],
   },
-
   {
     titulo: "Apresentações e Demonstrações",
     imagens: [
+      apresentacao1,
+      apresentacao2,
+      apresentacao3,
+      apresentacao4,
+      apresentacao5,
+      apresentacao6,
+      apresentacao7,
+      apresentacao8,
+      apresentacao9,
+      apresentacao10,
+      apresentacao11,
+      apresentacao12,
       apresentacao13,
       apresentacao14,
       apresentacao15,
@@ -122,25 +147,38 @@ const grupos = [
       myway2,
     ],
   },
-
   {
     titulo: "Tiro com Arco Adaptado",
     imagens: [tiro1, tiro2, tiro3, tiro4, tiro5, tiro6],
   },
-
   {
     titulo: "Palco",
     imagens: [palco1, palco2, palco3],
   },
 ];
 
+// ================= DIA 21 =================
+const gruposDia21 = [
+  {
+    titulo: "Abertura do Evento",
+    imagens: [
+      // 👉 COLOQUE AQUI AS NOVAS IMAGENS DE HOJE
+    ],
+  },
+];
+
 export default function GaleriaEvento() {
   const [grupoAberto, setGrupoAberto] = useState(null);
+  const [grupoAbertoDia21, setGrupoAbertoDia21] = useState(null);
   const [indexAtivo, setIndexAtivo] = useState(null);
   const [listaAtual, setListaAtual] = useState([]);
 
   const toggleGrupo = (index) => {
     setGrupoAberto(grupoAberto === index ? null : index);
+  };
+
+  const toggleGrupoDia21 = (index) => {
+    setGrupoAbertoDia21(grupoAbertoDia21 === index ? null : index);
   };
 
   const abrirImagem = (lista, index) => {
@@ -158,7 +196,7 @@ export default function GaleriaEvento() {
 
   return (
     <main className="galeria-page">
-      {/* ================= HERO NOVA ================= */}
+      {/* HERO */}
       <section className="event-hero">
         <div
           className="event-bg"
@@ -169,55 +207,38 @@ export default function GaleriaEvento() {
 
         <div className="container event-grid">
           <div className="row align-items-center">
-            <div className="col-lg-6 event-left">
-              <div className="glass-card event-card">
+            <div className="col-lg-6">
+              <div className="glass-card">
                 <h1 className="event-title">
                   Galeria Oficial do Sisconec.TA 2026
                 </h1>
 
                 <p className="event-description">
                   Explore os momentos mais marcantes do evento em tempo real.
-                  Tecnologia, inclusão e inovação registradas em cada detalhe.
                 </p>
 
-                <div className="mt-4">
-                  <Link className="btn btn-primary" to="/programacao">
-                    Ver Programação
-                  </Link>
-                </div>
+                <Link className="btn btn-primary mt-3" to="/programacao">
+                  Ver Programação
+                </Link>
               </div>
             </div>
 
             <div className="col-lg-6 d-none d-lg-flex justify-content-center">
-              <div className="glass-card event-visual">
-                <img
-                  src={heroSide}
-                  alt="Galeria do evento"
-                  className="event-image"
-                  loading="lazy"
-                />
+              <div className="glass-card">
+                <img src={heroSide} className="event-image" />
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ================= TITULO + SUBTITULO ================= */}
+      {/* DIA 20 */}
       <section className="galeria-header">
         <div className="container">
-          <h2 className="galeria-title">
-            Momentos que estão acontecendo agora
-          </h2>
-
-          <p className="galeria-subtitle">
-            Acompanhe registros reais do Sisconec.TA 2026 e mergulhe em uma
-            experiência visual que revela como a tecnologia assistiva está
-            impactando vidas, conectando pessoas e transformando o futuro.
-          </p>
+          <h2 className="galeria-title">Primeiro Dia — 20/03</h2>
         </div>
       </section>
 
-      {/* ================= ACORDEON ================= */}
       <section className="galeria-section">
         <div className="container">
           {grupos.map((grupo, gIndex) => (
@@ -234,11 +255,11 @@ export default function GaleriaEvento() {
                 <div className="galeria-grid">
                   {grupo.imagens.map((img, i) => (
                     <div
-                      className="galeria-item"
                       key={i}
+                      className="galeria-item"
                       onClick={() => abrirImagem(grupo.imagens, i)}
                     >
-                      <img src={img} alt="" loading="lazy" />
+                      <img src={img} loading="lazy" />
                     </div>
                   ))}
                 </div>
@@ -248,13 +269,48 @@ export default function GaleriaEvento() {
         </div>
       </section>
 
-      {/* ================= MODAL ================= */}
+      {/* DIA 21 */}
+      <section className="galeria-header">
+        <div className="container">
+          <h2 className="galeria-title">Segundo Dia — 21/03</h2>
+        </div>
+      </section>
+
+      <section className="galeria-section">
+        <div className="container">
+          {gruposDia21.map((grupo, gIndex) => (
+            <div className="accordion-item" key={gIndex}>
+              <button
+                className="accordion-header"
+                onClick={() => toggleGrupoDia21(gIndex)}
+              >
+                {grupo.titulo}
+                <span>{grupoAbertoDia21 === gIndex ? "−" : "+"}</span>
+              </button>
+
+              {grupoAbertoDia21 === gIndex && (
+                <div className="galeria-grid">
+                  {grupo.imagens.map((img, i) => (
+                    <div
+                      key={i}
+                      className="galeria-item"
+                      onClick={() => abrirImagem(grupo.imagens, i)}
+                    >
+                      <img src={img} loading="lazy" />
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* MODAL */}
       {indexAtivo !== null && (
         <div className="galeria-modal" onClick={() => setIndexAtivo(null)}>
-          {/* BOTÃO FECHAR */}
           <span className="galeria-close">&times;</span>
 
-          {/* SETA ESQUERDA */}
           <button
             className="galeria-seta esquerda"
             onClick={(e) => {
@@ -265,15 +321,12 @@ export default function GaleriaEvento() {
             ❮
           </button>
 
-          {/* IMAGEM */}
           <img
             src={listaAtual[indexAtivo]}
-            alt="Imagem ampliada"
             className="galeria-modal-img"
             onClick={(e) => e.stopPropagation()}
           />
 
-          {/* SETA DIREITA */}
           <button
             className="galeria-seta direita"
             onClick={(e) => {
