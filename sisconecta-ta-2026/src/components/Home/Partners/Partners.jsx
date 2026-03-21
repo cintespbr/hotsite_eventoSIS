@@ -17,6 +17,7 @@ import logoFau from "../../../assets/partners/logo-fau.jpg";
 import logoMarvit from "../../../assets/partners/logo-marvit.png";
 import logoFapemig from "../../../assets/partners/logo-fapemig.png";
 import logoCapes from "../../../assets/partners/logo-capes.png";
+import logoAD from "../../../assets/partners/ad-toc.png";
 
 const partners = [
   { name: "MCTI", logo: mcti, color: "#9c59b6" },
@@ -85,6 +86,11 @@ const partners = [
   {
     name: "CAPES",
     logo: logoCapes,
+    color: "#f39d12",
+  },
+  {
+    name: "Ad Em Todos os Cantos",
+    logo: logoAD,
     color: "#f39d12",
   },
 
