@@ -1,0 +1,115 @@
+/* Overlay escuro */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 10, 30, 0.75);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+/* Container principal */
+.popup-container {
+  position: relative;
+  width: 90%;
+  max-width: 800px;
+  padding: 50px 40px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #2b2ea6, #2e1f8f);
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Botão fechar */
+.popup-close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.popup-logo-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.popup-logo {
+  max-width: 280px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Título */
+.popup-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.popup-title span {
+  color: #00cfff;
+}
+
+/* Subtítulo */
+.popup-subtitle {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+/* Texto */
+.popup-text {
+  font-size: 15px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+/* Botão */
+.popup-button {
+  background: #ff8c00;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.popup-button:hover {
+  background: #ff6f00;
+}
+
+/* Shapes decorativos */
+.shape {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.15;
+  background: #ff8c00;
+}
+
+.shape-top {
+  width: 120px;
+  height: 120px;
+  top: -40px;
+  left: -40px;
+}
+
+.shape-bottom {
+  width: 180px;
+  height: 180px;
+  bottom: -60px;
+  right: -60px;
+}

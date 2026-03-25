@@ -301,12 +301,12 @@ export default function GaleriaEvento() {
                 </h1>
 
                 <p className="event-description">
-                  Explore os momentos mais marcantes do evento em tempo real.
+                  Explore os momentos mais marcantes do evento.
                 </p>
 
-                <Link className="btn btn-primary mt-3" to="/programacao">
+                {/*   <Link className="btn btn-primary mt-3" to="/programacao">
                   Ver Programação
-                </Link>
+                </Link>*/}
               </div>
             </div>
 

@@ -6,11 +6,13 @@ import Subscribe from "./pages/Subscribe";
 import { VLibras } from "./components/VLibras";
 import Workshops from "./pages/Workshops";
 import GaleriaEvento from "./pages/GaleriaEvento";
+import PopupEvento from "./components/PopupEvento/PopupEvento";
 
 export default function App() {
   return (
     <BrowserRouter>
       <VLibras />
+      <PopupEvento />
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />

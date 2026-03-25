@@ -74,8 +74,8 @@ export default function Hero() {
 
               <div className="glass-card countdown-card">
                 <span className="countdown-label">
-                  O evento está acontecendo agora! <br />
-                  Acompanhe a galeria do evento.
+                  O Sisconec.TA 2026 foi um sucesso! <br />
+                  Confira os melhores momentos na galeria do evento.
                 </span>
 
                 <div className="countdown-grid">
